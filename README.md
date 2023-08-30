@@ -1,7 +1,4 @@
-### Hi there 👋
 
-
-**aradfarahani/aradfarahani** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 # 💫 About Me:
 Just a creative person who love to learn and experience new things. I became interested in Geology, Math, Programming<br> and Marketing since I was Kid. I found that I’m Interested in Data Science and Visualizing Data in Python. Also I have some<br>management experiences.<br>
