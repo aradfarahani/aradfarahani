@@ -6,7 +6,7 @@ Just a Creative undergraduate Geology student who is interested in Sedimentology
 
 
 ## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani)     <br> <a
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani)      [Research Gate].(https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani). <br> <a
     id="cy-effective-orcid-url"
     class="underline"
      href="https://orcid.org/0009-0008-3800-8688"
