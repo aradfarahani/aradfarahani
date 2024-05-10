@@ -1,4 +1,5 @@
 
+![Geology Animation](https://stackoverflow.com/questions/34341808/is-there-a-way-to-add-an-animated-gif-to-a-markdown-file)
 
 # 💫 About Me:
 Just a Creative undergraduate Geology student who is interested in Hydrology, Climate Change, Geophysics and Remote Sensing. I really enjoy Data Analysis and Data Visualizing in Python. Since my childhood I really got in to the Math and nowadays I focus on Advance Linear Algebra and Mathematical Modeling. I really like musics, videogames and outdoor activities such as hiking also I love to communicate with people and know about their cultures. <br>
