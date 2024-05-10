@@ -1,34 +1,4 @@
 
-svg#topographic 
-  width 100vw
-  
-  path
-    fill #1c1c1c
-    stroke-width 1
-    stroke-miterlimit 0
-    stroke lighten(#232323, 10%)
-    stroke-dasharray 500
-    stroke-dashoffset 1000
-    animation dash 10s linear alternate infinite
-    
-    
-
-  
-  path
-    fill #f2f2f2
-    
-@keyframes dash
-  from
-    stroke-dashoffset 1000
-  to
-    stroke-dashoffset 0
-    
-    
-body
-  background #232323
-  overflow hidden
-  height 100vh
-  width 100vw
 
 # 💫 About Me:
 Just a Creative undergraduate Geology student who is interested in Hydrology, Climate Change, Geophysics and Remote Sensing. I really enjoy Data Analysis and Data Visualizing in Python. Since my childhood I really got in to the Math and nowadays I focus on Advance Linear Algebra and Mathematical Modeling. I really like musics, videogames and outdoor activities such as hiking also I love to communicate with people and know about their cultures. <br>
