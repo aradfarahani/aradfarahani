@@ -19,7 +19,7 @@ Just a Creative undergraduate Geology student who is interested in Hydrology, Cl
         alt="ORCID iD icon"/>
       https://orcid.org/0009-0008-3800-8688
     </a>
-    <a href="https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani">Mahdi Farmahini Farahani on ResearchGate</a>
+
 ![Python Advance](https://github.com/aradfarahani/aradfarahani/assets/90475349/bad9f0a1-f7d1-42e9-8e1e-6c9a76ea4602)
 
 # 📊 GitHub Stats:
