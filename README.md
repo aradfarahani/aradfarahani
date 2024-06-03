@@ -20,7 +20,6 @@ Just a Creative undergraduate Geology student who is interested in Hydrology, Cl
       https://orcid.org/0009-0008-3800-8688
     </a>
 
-![Python Advance](https://github.com/aradfarahani/aradfarahani/assets/90475349/bad9f0a1-f7d1-42e9-8e1e-6c9a76ea4602)
 
 # 📊 GitHub Stats:
 ![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false)<br/>
