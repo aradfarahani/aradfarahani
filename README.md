@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=#00FF00;height=100&amp;section=header" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=#008000&height=100&section=header" width="100%">
 
 # 💫 About Me:
 Just a Creative undergraduate Geology student who is interested in Hydrology, Climate Change, Geophysics and Remote Sensing. I really enjoy Data Analysis and Data Visualizing in Python. Since my childhood I really got in to the Math and nowadays I focus on Advance Linear Algebra and Mathematical Modeling. I really like musics, videogames and outdoor activities such as hiking also I love to communicate with people and know about their cultures. <br>
