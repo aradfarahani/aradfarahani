@@ -1,3 +1,5 @@
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=header" width="100%">
+
 # 💫 About Me:
 Just a Creative undergraduate Geology student who is interested in Hydrology, Climate Change, Geophysics and Remote Sensing. I really enjoy Data Analysis and Data Visualizing in Python. Since my childhood I really got in to the Math and nowadays I focus on Advance Linear Algebra and Mathematical Modeling. I really like musics, videogames and outdoor activities such as hiking also I love to communicate with people and know about their cultures. <br>
 🏬I'm currently working @ FEZtool as an R&D Specialist <br>🤝I'm looking for Research Internship positions in the field of Sedimentology, Climate Change and Remote Sensing<br>📖I'm currently Study Geology @ KhU and trying to learn Python and AI Developing by myself<br>
