@@ -7,11 +7,13 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 -🎮 I like to play video games in my free time(rather to play indie game)<br>-🌍  I’m a huge fan of GIS, RS, and anything related to Earth Science (a bit of a nerd!). <br>-☕ I can’t start my day without a cup of coffee (Americano or V60)<br>-🎵 Nowadays I'm trying to play the Kamancheh (an Iranian Instrument(Jazz is my favorite genre!!!))
 
 ## 👨‍💻 Tech Skills
+
 <p align="center">
   <a href="https://skillicons.dev">
-     <img src="[https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim](https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,blender,anaconda,ubuntu&theme=light)" />
+    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim](https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,blender,anaconda,ubuntu&theme=light" />
   </a>
 </p>
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani) [![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani) [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en) [![Website Badge](https://img.shields.io/badge/My-Website-red)](http://mahdifarmahinifarahani.cvbuilder.me/en) <br> <a
