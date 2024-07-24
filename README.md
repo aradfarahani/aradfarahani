@@ -10,7 +10,7 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=git,kubernetes,docker,c,vim](https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,blender,anaconda,ubuntu&theme=light" />
+    <img src="https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,blender,anaconda,ubuntu&theme=light" />
   </a>
 </p>
 
