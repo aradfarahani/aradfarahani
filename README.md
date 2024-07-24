@@ -8,7 +8,7 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 
 ## 👨‍💻 Tech Skills
 
-[![My Skills](https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,jupyter&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=py,r,latex,matlab,mysql,julia,markdown,linux,anaconda&theme=light)](https://skillicons.dev)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani) [![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani) [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en) [![Website Badge](https://img.shields.io/badge/My-Website-red)](http://mahdifarmahinifarahani.cvbuilder.me/en) <br> <a
