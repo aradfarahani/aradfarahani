@@ -1,11 +1,6 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=header" width="100%">
 
-<div style="text-align: right;">
-  <a href="https://user-badge.committers.top/iran/aradfarahani">
-    <img src="https://user-badge.committers.top/iran/aradfarahani.svg" alt="committers.top badge">
-  </a>
-</div>
-
+[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
 
 # 💫 About Me:
 I’m a creative undergraduate Geology student with a passion for Hydrology/Hydrogeology, Climate Change, Geophysics, and Remote Sensing. I thoroughly enjoy Data Analysis and Data Visualization in Python. Since childhood, I’ve been fascinated by Math, and currently, I focus on Advanced Linear Algebra and Mathematical Modeling. I also have a love for music, video games, and outdoor activities like hiking. I enjoy connecting with people and learning about their cultures. <br>
