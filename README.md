@@ -37,7 +37,6 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=aradfarahani&icon=0&color=0)](https://visitcount.itsvg.in)
+![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/USERNAME)[![](https://visitcount.itsvg.in/api?id=aradfarahani&icon=0&color=0)](https://visitcount.itsvg.in)
 
-
-[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/USERNAME)<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
