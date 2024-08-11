@@ -1,5 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=header" width="100%">
 
+[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
+
 # 💫 About Me:
 I’m a creative undergraduate Geology student with a passion for Hydrology/Hydrogeology, Climate Change, Geophysics, and Remote Sensing. I thoroughly enjoy Data Analysis and Data Visualization in Python. Since childhood, I’ve been fascinated by Math, and currently, I focus on Advanced Linear Algebra and Mathematical Modeling. I also have a love for music, video games, and outdoor activities like hiking. I enjoy connecting with people and learning about their cultures. <br>
 🏬 Current Role: R&D Specialist at FEZtool <br>🤝 Looking For: Graduate positions in Earth Science<br>📖 Education: Studying Geology at KhU, developing ML models and numerical solutions in geoscience<br>
@@ -38,6 +40,5 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 
 ---
 [![](https://visitcount.itsvg.in/api?id=aradfarahani&label=Profile%20Views&color=12&icon=0&pretty=false)](https://visitcount.itsvg.in)
-[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
