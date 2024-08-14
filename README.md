@@ -35,7 +35,7 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=aradfarahan&theme=light&hide_border=false&include_all_commits=false&count_private=false)<br/>
+![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=aradfarahani&theme=light&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
 
