@@ -1,8 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=header" width="100%">
-
-[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
-
-[![LeetCode user aradfarahani](https://img.shields.io/badge/dynamic/json?style=for-the-badge&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Fcascandaliato&logo=leetcode&logoColor=yellow)](https://leetcode.com/aradfarahani/)
+[![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani) [![LeetCode user aradfarahani](https://img.shields.io/badge/dynamic/json?style=plastic&labelColor=black&color=%23ffa116&label=Solved&query=solvedOverTotal&url=https%3A%2F%2Fleetcode-badge.vercel.app%2Fapi%2Fusers%2Faradfarahani&logo=leetcode&logoColor=yellow)](https://leetcode.com/aradfarahani/)
 
 # 💫 About Me:
 I’m a creative undergraduate Geology student with a passion for Hydrology/Hydrogeology, Climate Change, Geophysics, and Remote Sensing. I thoroughly enjoy Data Analysis and Data Visualization in Python. Since childhood, I’ve been fascinated by Math, and currently, I focus on Advanced Linear Algebra and Mathematical Modeling. I also have a love for music, video games, and outdoor activities like hiking. I enjoy connecting with people and learning about their cultures. <br>
