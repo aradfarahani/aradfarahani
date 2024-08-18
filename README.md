@@ -28,7 +28,9 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
         alt="ORCID iD icon"/>
       https://orcid.org/0009-0008-3800-8688
     </a>
+# Leet Code Badges
 
+<img src="https://leetcode-badge-showcase.vercel.app/api?username={aradfarahani}&animated=true" alt="LeetCode Badges"/>
 
 # 📊 GitHub Stats:
 
