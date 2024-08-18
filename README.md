@@ -29,7 +29,7 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
       https://orcid.org/0009-0008-3800-8688
     </a>
 # 📊 LeetCode Stats
-![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=aradfarahani) ![](https://leetcard.jacoblin.cool/aradfarahani?ext=activity&height=537) 
+![](https://leetcard.jacoblin.cool/aradfarahani?ext=activity) 
 
 # 📊 GitHub Stats:
 
