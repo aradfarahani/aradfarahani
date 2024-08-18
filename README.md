@@ -28,13 +28,12 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
         alt="ORCID iD icon"/>
       https://orcid.org/0009-0008-3800-8688
     </a>
-# Leet Code Badges
-
-<img src="https://leetcode-badge-showcase.vercel.app/api?username={aradfarahani}&animated=true" alt="LeetCode Badges"/>
+# 📊 LeetCode Stats
+![LeetCode Badges](https://leetcode-badge-showcase.vercel.app/api?username=aradfarahani) ![](https://leetcard.jacoblin.cool/aradfarahani?ext=activity&height=537) 
 
 # 📊 GitHub Stats:
 
-![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false&layout=compact)<br/>
+![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact&height=400)<br/>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=aradfarahani&theme=light&hide_border=false)<br/>
 
 ---
