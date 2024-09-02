@@ -5,7 +5,7 @@ I’m a creative undergraduate Geology student with a passion for Hydrology/Hydr
 ## Some fun facts about me :<br>
 -🎮 I like to play video games in my free time(rather to play indie game)<br>-🌍  I’m a huge fan of GIS, RS, and anything related to Earth Science (a bit of a nerd!). <br>-☕ I can’t start my day without a cup of coffee (Americano or V60)<br>-🎵 Nowadays I'm trying to play the Kamancheh (an Iranian Instrument(Jazz is my favorite genre!!!))
 
-## 👨‍💻 Tech Skills
+## 👨‍💻 Tech Skills:
 
 <p align="center">
   <a href="https://skillicons.dev">
