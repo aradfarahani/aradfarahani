@@ -1,6 +1,10 @@
 [![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
 # 💫 About Me:
-I’m a creative undergraduate Geology student with a passion for Hydrology/Hydrogeology, Climate Change, Geophysics, and Remote Sensing. I thoroughly enjoy Data Analysis and Data Visualization in Python. Since childhood, I’ve been fascinated by Math, and currently, I focus on Advanced Linear Algebra and Mathematical Modeling. I also have a love for music, video games, and outdoor activities like hiking. I enjoy connecting with people and learning about their cultures. <br>
+I’m a senior undergraduate Geology student with a passion for Geophysics—especially Seismology and Hydrogeophysics—and Computational Science. Lately, I’ve been exploring AI-driven forecasting, and I also enjoy working with image processing techniques for clustering and classification.<br>
+
+Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity. I’m an outdoor enthusiast who enjoys hiking, learning about different cultures, and connecting with people. Music and video games are also a big part of my life, offering both inspiration and relaxation.<br>
+
+I have a deep appreciation for fine pens—my favorite being the Cross ATX—and watches, recently adding a mint green Tissot PRX to my collection. In my free time, I play the Kamancheh, inspired by the artistry of Ali-Asghar Bahari. <br>
 🏬 Current Role: R&D Specialist at FEZtool <br>🤝 Looking For: Graduate positions in Earth Science<br>📖 Education: Studying Geology at KhU, developing ML models and numerical solutions in geoscience<br>
 ## Some fun facts about me :<br>
 -🎮 I like to play video games in my free time(rather to play indie game)<br>-🌍  I’m a huge fan of GIS, RS, and anything related to Earth Science (a bit of a nerd!). <br>-☕ I can’t start my day without a cup of coffee (Americano or V60)<br>-🎵 Nowadays I'm trying to play the Kamancheh (an Iranian Instrument(Jazz is my favorite genre!!!))
