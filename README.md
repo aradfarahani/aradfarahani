@@ -40,6 +40,5 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX—and
 ![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact&height=400)<br/>
 
 ---
-![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
