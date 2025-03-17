@@ -10,7 +10,7 @@ Beyond academics, I love developing open-source software, where I can blend prob
 I have a deep appreciation for fine pens—my favorite being the Cross ATX and Parker 105—and watches, recently adding a mint green Tissot PRX to my collection. In my free time, I play the Kamancheh, inspired by the artistry of Ali-Asghar Bahari. <br>
 🏬 Current Role: R&D Specialist at FEZtool <br>🤝 Looking For: Graduate positions in Earth Science<br>📖 Education: Studying Geology at KhU, developing ML models and numerical solutions in geoscience<br>
 ## Some fun facts about me :<br>
--🎮 I like to play video games in my free time(rather to play indie game)<br>-🌍  I’m a huge fan of GIS, RS, and anything related to Earth Science (a bit of a nerd!). <br>-☕ I can’t start my day without a cup of coffee (Americano or V60)<br>-🎵 Nowadays I'm trying to play the Kamancheh (an Iranian Instrument(Jazz is my favorite genre!!!))<br> -💖 I love my rubber duck named Pinky.Even though Pinky isn’t actually pink, I love the color pink, so it fits!. Pinky is my little companion, helping me think through problems (rubber duck debugging style)!
+-🎮 I like to play video games in my free time(rather to play indie game)<br>-🌍  I’m a huge fan of GIS, RS, and anything related to Earth Science (a bit of a nerd!). <br>-☕ I can’t start my day without a cup of coffee (Americano or V60)<br>-🎵 Nowadays I'm trying to play the Kamancheh (an Iranian Instrument(Jazz is my favorite genre!!!))<br> -💖 I love my rubber duck named Pinky. Even though Pinky isn’t actually pink, I love the color pink, so it fits!. Pinky is my little companion, helping me think through problems (rubber duck debugging style)!
 
 
 ## 👨‍💻 Tech Skills:
