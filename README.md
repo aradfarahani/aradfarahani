@@ -38,7 +38,7 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 
 
 ### 📈 GitHub Stats
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=auto&hide_border=true)](https://github.com/aradfarahani) [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=auto&hide_border=true)](https://github.com/aradfarahani)
+![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact&height=400)<br/>
 
 
 ---
