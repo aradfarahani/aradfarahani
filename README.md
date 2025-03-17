@@ -36,11 +36,9 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 ### 📊 LeetCode
 [![LeetCode Stats](https://leetcard.jacoblin.cool/aradfarahani?ext=activity&theme=auto)](https://leetcode.com/u/aradfarahani/)
 
----
 
 ### 📈 GitHub Stats
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=auto&hide_border=true)](https://github.com/aradfarahani)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=auto&hide_border=true)](https://github.com/aradfarahani)
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=auto&hide_border=true)](https://github.com/aradfarahani) [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=auto&hide_border=true)](https://github.com/aradfarahani)
 
 
 ---
