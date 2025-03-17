@@ -10,12 +10,13 @@ Beyond academics, I love developing open-source software, where I can blend prob
 I specialize in using **programming & data science** to solve geospatial problems in **Seismology, Hydrogeophysics, and Image Processing**.  
 Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I develop computational solutions for Earth Science challenges.
 
-## 🌍 Beyond Coding
+## 🌱 Beyond Coding
 
 🎮 Indie game lover | 🎵 Jazz enthusiast | 🎭 Passion for different cultures 
 ☕ Always up for a **V60 brew** | 🎻 Learning **Kamancheh** (inspired by the artistry of Ali-Asghar Bahari.) |
 🖊️ Fine Pen Collector | ⌚ Watch enthusiast
 
+🐥 **Fun Fact**: I have a rubber duck named **Pinky** 🦆 who helps me debug!
 
 ## 🛠 Technical Skills
 
