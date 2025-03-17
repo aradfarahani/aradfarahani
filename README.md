@@ -12,8 +12,8 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 ## 👨‍💻 Tech Skills:
 
 <p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" />
+  <a href="https://skillicons.dev" target="_blank">
+    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=auto&perline=5" alt="Tech Skills" />
   </a>
 </p>
 
