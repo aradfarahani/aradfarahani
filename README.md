@@ -35,7 +35,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 [![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00A4CC?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani)
 [![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0009-0008-3800-8688&color=green&style=flat&logo=orcid)](https://orcid.org/0009-0008-3800-8688)
-![LeetCode](https://img.shields.io/badge/Leet-Code-brown?logo=leetcode&link=https://leetcode.com/u/aradfarahani/)
+[![LeetCode](https://img.shields.io/badge/Leet-Code-brown?logo=leetcode)](https://leetcode.com/u/aradfarahani/)
 [![Hugging Face Badge](https://img.shields.io/badge/Hugging%20-Face-FF7A8C?logo=huggingface)](https://huggingface.co/aradfarahani)
 [![Google Developer](https://img.shields.io/badge/Google-Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani)](https://g.dev/aradfarahani)
 [![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
