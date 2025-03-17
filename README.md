@@ -31,12 +31,28 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 [![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani)](https://g.dev/aradfarahani)
 [![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
 
-# 📊 LeetCode Stats
-![](https://leetcard.jacoblin.cool/aradfarahani?ext=activity) 
+## 🚀 Coding & Development Stats  
 
-# 📊 GitHub Stats:
+### 📊 LeetCode Statistics  
+<div align="center">
+  <img src="https://leetcard.jacoblin.cool/aradfarahani?ext=activity&theme=light" alt="LeetCode Stats" />
+</div>  
 
-![](https://github-readme-stats.vercel.app/api?username=aradfarahani&theme=light&hide_border=false&include_all_commits=false&count_private=false) ![](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&theme=light&hide_border=false&include_all_commits=true&count_private=true&layout=compact&height=400)<br/>
+---
+
+### 📈 GitHub Statistics  
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=false&count_private=true" alt="GitHub Stats" />
+  <br/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=light&hide_border=false&count_private=true" alt="Most Used Languages" />
+</div>  
+
+---
+
+### 🔥 Contribution Activity  
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=aradfarahani&theme=github" alt="GitHub Activity Graph" />
+</div>
 
 ---
 
