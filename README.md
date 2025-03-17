@@ -13,10 +13,7 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <picture>
-      <source srcset="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" alt="Tech Skills">
-    </picture>
+    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" />
   </a>
 </p>
 
