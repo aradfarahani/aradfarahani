@@ -1,6 +1,5 @@
 [![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
 [![Google Maps Platform Innovator](https://img.shields.io/badge/Google%20Maps%20Platform%20Innovator-blue)](https://developers.google.com/profile/badges/community/innovators/maps/)
-[![Google Developer Innovator](https://developers.google.com/profile/badges/community/innovators/maps/)](https://developers.google.com/profile/badges/community/innovators/maps/)
 
 # 💫 About Me:
 I’m a senior undergraduate Geology student with a passion for Geophysics—especially Seismology and Hydrogeophysics—and Computational Science. Lately, I’ve been exploring AI-driven forecasting, and I also enjoy working with image processing techniques for clustering and classification.<br>
