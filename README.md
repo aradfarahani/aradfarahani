@@ -7,7 +7,7 @@
 I'm a **senior undergraduate Geology student** at Kharazmi University, deeply passionate about **Geophysics, Remote Sensing, AI-driven forecasting, and Computational Science**. I also enjoy working with image processing techniques for clustering and classification.<br>
 Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.
 I specialize in using **programming & data science** to solve geospatial problems in **Seismology, Hydrogeophysics, and Image Processing**.  
-Currently, I'm an **R&D Specialist at [FEZtool](FEZtool.com)**, where I develop computational solutions for Earth Science challenges.
+Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I develop computational solutions for Earth Science challenges.
 
 ## 🎓 **Education & Research**  
 🎓 **B.Sc. in Geology**, Kharazmi University (2021-2025)  
