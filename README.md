@@ -21,11 +21,11 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani)
-[![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani) 
+[![ResearchGate Badge](https://img.shields.io/badge/Research-Gate-9cf)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani)
 [![Google Scholar Badge](https://img.shields.io/badge/Google-Scholar-lightgrey)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en)
-[![Website Badge](https://img.shields.io/badge/Leet-Code-green)](https://leetcode.com/u/aradfarahani/)
+![LeetCode](https://img.shields.io/badge/LeetCode-orange?logo=leetcode&link=https://leetcode.com/u/aradfarahani/)
 [![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
-![Google Developer](https://img.shields.io/badge/Google_Developer-Arad_Farahani-blue?logo=google&link=https://g.dev/aradfarahani)
+![Google Developer](https://img.shields.io/badge/Google_Developer-blue?logo=google&link=https://g.dev/aradfarahani)
 <a href='https://huggingface.co/aradfarahani'><img src='https://img.shields.io/badge/%F0%9F%A4%97%20Hugging Face-aradfarahani-pink'></img></a>
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0009-0008-3800-8688&color=green&stylelogo=orcid)](https://orcid.org/0009-0008-3800-8688)
 
