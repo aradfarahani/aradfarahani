@@ -26,7 +26,7 @@ I have a deep appreciation for fine pens—my favorite being the Cross ATX and P
 [![Google Scholar Badge](https://img.shields.io/badge/Google%20Scholar-Profile-blue?logo=googlescholar)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en)
 ![LeetCode](https://img.shields.io/badge/LeetCode-brown?logo=leetcode&link=https://leetcode.com/u/aradfarahani/)
 [![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
-![Google Developer](https://img.shields.io/badge/Google_Developer-black?logo=google&link=https://g.dev/aradfarahani)
+[![Google Developer](https://img.shields.io/badge/Google_Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani)](https://g.dev/aradfarahani)
 [![Hugging Face Badge](https://img.shields.io/badge/Hugging%20Face-FF7A8C?logo=huggingface)](https://huggingface.co/aradfarahani)
 [![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0009-0008-3800-8688&color=green&stylelogo=orcid)](https://orcid.org/0009-0008-3800-8688)
 
