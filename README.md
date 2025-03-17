@@ -12,7 +12,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 
 ## 🌱 Beyond Coding
 
-🎮 Indie game lover | 🎵 Jazz enthusiast | 🎭 Passion for different cultures 
+🎮 Indie game lover | 🎵 Jazz enthusiast | 🎭 Passion for different cultures |
 ☕ Always up for a **V60 brew** | 🎻 Learning **Kamancheh** (inspired by the artistry of Ali-Asghar Bahari.) |
 🖊️ Fine Pen Collector | ⌚ Watch enthusiast
 
