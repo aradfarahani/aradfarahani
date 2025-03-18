@@ -48,6 +48,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 ### 📈 GitHub Stats
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=auto&hide_border=true)](https://github.com/aradfarahani) [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=auto&hide_border=true)](https://github.com/aradfarahani)
 
+![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
 ---
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
