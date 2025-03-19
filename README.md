@@ -43,7 +43,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 
 <div style="text-align: center;">
   <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity" width="400">
-  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=true&cache_seconds=10" width="500">
+  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=true&cache_seconds=10" width="400">
 </div>
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
