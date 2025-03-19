@@ -26,7 +26,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 </p>
 
 
-## 🌐 Socials:
+## 🌐 Socials
 
 <p align="center">
   <a href="https://linkedin.com/in/aradfarahani">
