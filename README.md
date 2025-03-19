@@ -8,7 +8,7 @@
 <p align="justify">
 I'm a <strong>senior undergraduate Geology student</strong> at Kharazmi University, deeply passionate about 
 <strong>Geophysics, Remote Sensing, AI-driven forecasting, and Computational Science</strong>. 
-I also enjoy working with image processing techniques for clustering and classification.  
+I also enjoy working with image processing techniques for clustering and classification.<br>
 Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.  
 I specialize in using <strong>programming & data science</strong> to solve geospatial problems in 
 <strong>Seismology, Hydrogeophysics, and Image Processing</strong>.  
