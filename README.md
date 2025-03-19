@@ -71,5 +71,4 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 ---
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
-
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
