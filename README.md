@@ -12,9 +12,10 @@ I also enjoy working with image processing techniques for clustering and classif
 Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.  
 I specialize in using <strong>programming & data science</strong> to solve geospatial problems in 
 <strong>Seismology, Hydrogeophysics, and Image Processing</strong>.  
-Currently, I'm an <strong>R&D Specialist at <a href="https://feztool.com/">FEZtool</a></strong>, where I develop 
-computational solutions for Earth Science challenges.
+Currently, I'm the <strong>Co-founder and R&D Specialist at <a href="https://feztool.com/">FEZtool</a></strong>, 
+where I develop computational solutions for Earth Science challenges.
 </p>
+
 
 
 ## <img src="https://media.tenor.com/hH7RVruIvCsAAAAi/jirasol.gif" width="47">  Beyond Coding
