@@ -115,8 +115,14 @@ where I develop computational solutions for Earth Science challenges.
 ## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
 <p align="center">
-  <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=auto&ext=activity" width="400">
-  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=auto&hide_border=true&cache_seconds=10" width="400">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark&ext=activity">
+    <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity" width="400">
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=dark&hide_border=true&cache_seconds=10">
+    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=light&hide_border=true&cache_seconds=10" width="400">
+  </picture>
 </p>
 
 ---
