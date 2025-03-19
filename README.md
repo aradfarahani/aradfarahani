@@ -41,12 +41,10 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 
 ## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
-### 📊 LeetCode Stats
-![LeetCode Stats](https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity)
-
-### 📈 GitHub Stats
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=auto&hide_border=true&cache_seconds=10)](https://github.com/aradfarahani)
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aradfarahani&layout=compact&theme=auto&hide_border=true)](https://github.com/aradfarahani)
+<div style="text-align: center;">
+  <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity" width="400">
+  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=true&cache_seconds=10" width="500">
+</div>
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
 ---
