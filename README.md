@@ -121,7 +121,7 @@ where I develop computational solutions for Earth Science challenges.
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=dark&show=dark&hide_border=false&cache_seconds=10">
-    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=Light&show=light&hide_border=false&cache_seconds=10" width="380">
+    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=Light&show=light&hide_border=false&cache_seconds=10" width="383">
   </picture>
 </p>
 
