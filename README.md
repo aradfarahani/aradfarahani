@@ -5,10 +5,17 @@
 
 ### <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30">  Welcome to my GitHub! 
 
-I'm a **senior undergraduate Geology student** at Kharazmi University, deeply passionate about **Geophysics, Remote Sensing, AI-driven forecasting, and Computational Science**. I also enjoy working with image processing techniques for clustering and classification.<br>
-Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.
-I specialize in using **programming & data science** to solve geospatial problems in **Seismology, Hydrogeophysics, and Image Processing**.  
-Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I develop computational solutions for Earth Science challenges.
+<p align="justify">
+I'm a <strong>senior undergraduate Geology student</strong> at Kharazmi University, deeply passionate about 
+<strong>Geophysics, Remote Sensing, AI-driven forecasting, and Computational Science</strong>. 
+I also enjoy working with image processing techniques for clustering and classification.  
+Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.  
+I specialize in using <strong>programming & data science</strong> to solve geospatial problems in 
+<strong>Seismology, Hydrogeophysics, and Image Processing</strong>.  
+Currently, I'm an <strong>R&D Specialist at <a href="https://feztool.com/">FEZtool</a></strong>, where I develop 
+computational solutions for Earth Science challenges.
+</p>
+
 
 ## <img src="https://media.tenor.com/hH7RVruIvCsAAAAi/jirasol.gif" width="47">  Beyond Coding
 
