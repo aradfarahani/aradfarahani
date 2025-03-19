@@ -29,18 +29,28 @@ where I develop computational solutions for Earth Science challenges.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <picture>
-      <!-- Dark mode -->
-      <source 
-        srcset="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=dark&perline=5"
-        media="(prefers-color-scheme: dark)">
-      <!-- Light mode -->
-      <img 
-        src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" 
-        alt="Skill Icons">
-    </picture>
+    <!-- Light Mode Image -->
+    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" alt="Skill Icons" style="display: block;" class="light-mode">
+    
+    <!-- Dark Mode Image -->
+    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" alt="Skill Icons" style="display: none;" class="dark-mode">
   </a>
 </p>
+
+<script>
+  // Detect the current theme and toggle the visibility of images
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+  const lightModeImg = document.querySelector('.light-mode');
+  const darkModeImg = document.querySelector('.dark-mode');
+  
+  if (isDarkMode) {
+    lightModeImg.style.display = 'none';
+    darkModeImg.style.display = 'block';
+  } else {
+    lightModeImg.style.display = 'block';
+    darkModeImg.style.display = 'none';
+  }
+</script>
 
 ## 🌐 Socials
 
