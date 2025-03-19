@@ -30,6 +30,10 @@ where I develop computational solutions for Earth Science challenges.
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda&theme=dark&perline=5" alt="Skills Part 1">
+  </a>
+</p>
+<p align="center">
+  <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" alt="Skills Part 2">
   </a>
 </p>
