@@ -28,24 +28,45 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 
 ## 🌐 Socials:
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/aradfarahani)
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/arad.farahani)
-[![X Badge](https://img.shields.io/badge/Formerly_Twitter-000?logo=x&logoColor=white)](https://x.com/Aradfarahani)
-[![ResearchGate](https://img.shields.io/badge/ResearchGate-Profile-00A4CC?logo=researchgate&logoColor=white)](https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani)
-[![Google Scholar](https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?logo=googlescholar&logoColor=white)](https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en)
-[![ORCID](https://img.shields.io/static/v1?label=ORCID&message=0009-0008-3800-8688&color=green&style=flat&logo=orcid)](https://orcid.org/0009-0008-3800-8688)
-[![LeetCode](https://img.shields.io/badge/Leet-Code-brown?logo=leetcode)](https://leetcode.com/u/aradfarahani/)
-[![Hugging Face Badge](https://img.shields.io/badge/Hugging%20-Face-FF7A8C?logo=huggingface)](https://huggingface.co/aradfarahani)
-[![Google Developer](https://img.shields.io/badge/Google-Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani)](https://g.dev/aradfarahani)
-[![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
+<p align="center">
+  <a href="https://linkedin.com/in/aradfarahani">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?logo=linkedin&logoColor=white">
+  </a>
+  <a href="https://instagram.com/arad.farahani">
+    <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white">
+  </a>
+  <a href="https://x.com/Aradfarahani">
+    <img src="https://img.shields.io/badge/Formerly_Twitter-000?logo=x&logoColor=white">
+  </a>
+  <a href="https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani">
+    <img src="https://img.shields.io/badge/ResearchGate-Profile-00A4CC?logo=researchgate&logoColor=white">
+  </a>
+  <a href="https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en">
+    <img src="https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?logo=googlescholar&logoColor=white">
+  </a>
+  <a href="https://orcid.org/0009-0008-3800-8688">
+    <img src="https://img.shields.io/static/v1?label=ORCID&message=0009-0008-3800-8688&color=green&style=flat&logo=orcid">
+  </a>
+  <a href="https://leetcode.com/u/aradfarahani/">
+    <img src="https://img.shields.io/badge/Leet-Code-brown?logo=leetcode">
+  </a>
+  <a href="https://huggingface.co/aradfarahani">
+    <img src="https://img.shields.io/badge/Hugging%20-Face-FF7A8C?logo=huggingface">
+  </a>
+  <a href="https://g.dev/aradfarahani">
+    <img src="https://img.shields.io/badge/Google-Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani">
+  </a>
+  <a href="https://aradfarahani.com/">
+    <img src="https://img.shields.io/badge/My-Website-red">
+  </a>
+</p>
 
 ## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
 <p align="center">
   <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity" width="400">
-  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=light&hide_border=true&cache_seconds=10" width="400">
+  <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage&theme=false&hide_border=true&cache_seconds=10" width="400">
 </p>
-
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
 ---
