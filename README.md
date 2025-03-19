@@ -23,7 +23,7 @@ where I develop computational solutions for Earth Science challenges.
 <img src="https://media.tenor.com/l255AvpTPNAAAAAi/puppy-day.gif" width="30">  Indie game lover | <img src="https://media.tenor.com/uH0f6Lzr9MoAAAAi/saxophone.gif" width="25"> Jazz enthusiast | <img src="https://media.tenor.com/e27bs8VY2ZMAAAAi/theater-masks-activity.gif" width="18"> Passion for different cultures |
 <img src="https://media.tenor.com/drlZ92prkqgAAAAi/coffee-drink.gif" width="35"> Always up for a **V60 brew** | <img src="https://media.tenor.com/IZH_k7F9aqcAAAAi/music.gif" width="33"> Learning **Kamancheh** (inspired by the artistry of Ali-Asghar Bahari) | <img src="https://media.tenor.com/_m9BeUagaMkAAAAj/writing-hand-joypixels.gif" width="27"> Fine Pen Collector |  <img src="https://media.tenor.com/gdMmlrErw0EAAAAi/lumiranda-lu-miranda-asesoria-de-imagen.gif" width="27"> Watch enthusiast
 
->  🐥 **Fun Fact**: I have a rubber duck named **Pinky**<img src="https://media.tenor.com/3arJZZkFW6kAAAAj/dancing-duck-danse.gif" width="40"> who helps me debug!
+<img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='26' viewBox='0 0 24 24'%3E%3Cpath fill='%23E0218A' d='M8.5 5A1.5 1.5 0 0 0 7 6.5A1.5 1.5 0 0 0 8.5 8A1.5 1.5 0 0 0 10 6.5A1.5 1.5 0 0 0 8.5 5M10 2a5 5 0 0 1 5 5c0 1.7-.85 3.2-2.14 4.1c1.58.15 3.36.51 5.14 1.4c3 1.5 4-.5 4-.5s-1 9-7 9H9s-5 0-5-5c0-3 3-4 2-6c-4 0-4-3.5-4-3.5c1 .5 2.24.5 3 .15A5.02 5.02 0 0 1 10 2'/%3E%3C/svg%3E"> **Fun Fact**: I have a rubber duck named **Pinky**<img src="https://media.tenor.com/3arJZZkFW6kAAAAj/dancing-duck-danse.gif" width="40"> who helps me debug!
 
 ## 🛠 Technical Skills
 
