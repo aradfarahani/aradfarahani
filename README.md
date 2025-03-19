@@ -16,7 +16,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 ☕ Always up for a **V60 brew** | 🎻 Learning **Kamancheh** (inspired by the artistry of Ali-Asghar Bahari.) |
 🖊️ Fine Pen Collector | ⌚ Watch enthusiast
 
-🐥 **Fun Fact**: I have a rubber duck named **Pinky** 🦆 who helps me debug!
+🐥 **Fun Fact**: I have a rubber duck named **Pinky**<img src="https://media.tenor.com/3arJZZkFW6kAAAAj/dancing-duck-danse.gif" width="40"> who helps me debug!
 
 ## 🛠 Technical Skills
 
