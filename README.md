@@ -28,18 +28,51 @@ where I develop computational solutions for Earth Science challenges.
 ## 🛠 Technical Skills
 
 <p align="center">
+<p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source srcset="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda&theme=dark&perline=5" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda&theme=light&perline=5" alt="Skills Part 1">
+      <source srcset="https://skillicons.dev/icons?i=py&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=py&theme=light" alt="Python">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=r&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=r&theme=light" alt="R">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=julia&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=julia&theme=light" alt="Julia">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=matlab&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=matlab&theme=light" alt="MATLAB">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=anaconda&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=anaconda&theme=light" alt="Anaconda">
     </picture>
   </a>
 </p>
 <p align="center">
   <a href="https://skillicons.dev">
     <picture>
-      <source srcset="https://skillicons.dev/icons?i=latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=latex,arch,linux,ubuntu,markdown&theme=light&perline=5" alt="Skills Part 2">
+      <source srcset="https://skillicons.dev/icons?i=latex&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=latex&theme=light" alt="LaTeX">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=arch&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=arch&theme=light" alt="Arch">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=linux&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=linux&theme=light" alt="Linux">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=ubuntu&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=ubuntu&theme=light" alt="Ubuntu">
+    </picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=markdown&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=markdown&theme=light" alt="Markdown">
     </picture>
   </a>
 </p>
