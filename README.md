@@ -29,15 +29,10 @@ where I develop computational solutions for Earth Science challenges.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <picture>
-      <!-- Dark mode image -->
-      <source srcset="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" media="(prefers-color-scheme: dark)">
-      <!-- Light mode image -->
-      <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda,latex,arch,linux,ubuntu,markdown&theme=light&perline=5" alt="Skill Icons">
-    </picture>
+    <img src="https://skillicons.dev/icons?i=py,r,julia,matlab,anaconda&theme=dark&perline=5" alt="Skills Part 1">
+    <img src="https://skillicons.dev/icons?i=latex,arch,linux,ubuntu,markdown&theme=dark&perline=5" alt="Skills Part 2">
   </a>
 </p>
-
 
 ## 🌐 Socials
 
