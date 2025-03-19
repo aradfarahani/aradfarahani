@@ -39,7 +39,7 @@ Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I
 [![Google Developer](https://img.shields.io/badge/Google-Developer-4285F4?logo=google&logoColor=white&link=https://g.dev/aradfarahani)](https://g.dev/aradfarahani)
 [![Website Badge](https://img.shields.io/badge/My-Website-red)](https://aradfarahani.com/)
 
-## 🚀 Coding Stats
+## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
 ### 📊 LeetCode Stats
 ![LeetCode Stats](https://leetcard.jacoblin.cool/aradfarahani?theme=light&ext=activity)
