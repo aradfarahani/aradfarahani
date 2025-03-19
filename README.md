@@ -10,7 +10,7 @@ Beyond academics, I love developing open-source software, where I can blend prob
 I specialize in using **programming & data science** to solve geospatial problems in **Seismology, Hydrogeophysics, and Image Processing**.  
 Currently, I'm an **R&D Specialist at [FEZtool](https://feztool.com/)**, where I develop computational solutions for Earth Science challenges.
 
-## <img src="https://media.tenor.com/jnt7g5GOykgAAAAi/monstera-plant-green-faizah.gif" width="47">  Beyond Coding
+## <img src="https://media.tenor.com/hH7RVruIvCsAAAAi/jirasol.gif" width="47">  Beyond Coding
 
 <img src="https://media.tenor.com/l255AvpTPNAAAAAi/puppy-day.gif" width="30">  Indie game lover | <img src="https://media.tenor.com/uH0f6Lzr9MoAAAAi/saxophone.gif" width="25"> Jazz enthusiast | <img src="https://media.tenor.com/e27bs8VY2ZMAAAAi/theater-masks-activity.gif" width="18"> Passion for different cultures |
 <img src="https://media.tenor.com/drlZ92prkqgAAAAi/coffee-drink.gif" width="35"> Always up for a **V60 brew** | <img src="https://media.tenor.com/IZH_k7F9aqcAAAAi/music.gif" width="33"> Learning **Kamancheh** (inspired by the artistry of Ali-Asghar Bahari.) | <img src="https://media.tenor.com/_m9BeUagaMkAAAAj/writing-hand-joypixels.gif" width="27"> Fine Pen Collector |  <img src="https://media.tenor.com/gdMmlrErw0EAAAAi/lumiranda-lu-miranda-asesoria-de-imagen.gif" width="27"> Watch enthusiast
