@@ -128,4 +128,5 @@ where I develop computational solutions for Earth Science challenges.
 ---
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
+
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
