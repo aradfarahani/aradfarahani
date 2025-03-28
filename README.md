@@ -127,8 +127,8 @@ where I develop computational solutions for Earth Science challenges.
     <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=dark&show=dark&hide_border=false&cache_seconds=29">
-    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=Light&show=light&hide_border=false&cache_seconds=29" width="383">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=dark&show=dark&hide_border=false&cache_seconds=30">
+    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=Light&show=light&hide_border=false&cache_seconds=30" width="383">
   </picture>
 </p>
 
