@@ -1,5 +1,12 @@
 [![committers.top badge](https://user-badge.committers.top/iran/aradfarahani.svg)](https://user-badge.committers.top/iran/aradfarahani)
+[![Top Geophysics Developer](https://img.shields.io/badge/Geophysics-Top%20Dev-00A4CC?style=flat&logo=scipy&logoColor=white)](https://github.com/aradfarahani)
+[![Open Sourcerer](https://img.shields.io/badge/Open%20Sourcerer-%2300a896.svg?style=flat&logo=github&logoColor=white)](https://github.com/aradfarahani)
 [![Google Maps Platform Innovator](https://img.shields.io/badge/Google%20Maps%20Platform%20Innovator-blue)](https://developers.google.com/profile/badges/community/innovators/maps/)
+
+
+
+
+
 
 # <img src="https://media.tenor.com/YCsgU6ozOrsAAAAi/earth.gif" width="37"> [**Arad Farahani**](https://aradfarahani.com/) | Computational Geophysics 
 
