@@ -116,7 +116,7 @@ where I develop computational solutions for Earth Science challenges.
     <img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?logo=kaggle&logoColor=white">
   </a>
   <a href="https://www.deep-ml.com/profile/AeLfSUdIAGT40JTiwQ9FTuDQIW32">
-    <img src="https://img.shields.io/badge/DeepML-Profile-6A1B9A?">
+    <img src="https://img.shields.io/badge/Deep-ML-6A1B9A?">
   </a>
 </p>
 
