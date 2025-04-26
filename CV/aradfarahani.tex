@@ -13,7 +13,6 @@
 \usepackage{ragged2e}
 \usepackage{hyperref}
 
-% Configure hyperref for invisible links
 \hypersetup{
 	hidelinks
 }
@@ -25,7 +24,6 @@
 \titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
 \titleformat*{\subsubsection}{\large\itshape}
 
-% Set symmetric margins
 \geometry{
 	letterpaper,
 	left=0.75in,
@@ -35,7 +33,7 @@
 	footskip=10pt
 }
 
-% Footer configuration
+
 \pagestyle{fancy}
 \fancyhf{}
 \renewcommand{\headrulewidth}{0pt}
@@ -77,7 +75,8 @@
 	\end{tabular*}\vspace{-8pt}
 }
 
-% Document content
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{document}
 	
 	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
@@ -85,6 +84,8 @@
 		\href{maito:aradfarahani}{\texttt{E.mail: aradfarahani@aol.com}} & \href{https://aradfarahani.com/}{\texttt{Website: aradfarahani.com}} \\
 		\texttt{Handle: @aradfarahani} & \href{https://orcid.org/0009-0008-3800-8688}{\texttt{ORCID: 0009-0008-3800-8688}}
 	\end{tabular*}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	
 	\section{Education}
 	\ressubheading{Kharazmi University, Faculty of Earth Sciences}{Tehran, Iran}{Bachelor of Science, Geology}{2021 -- 2025}
@@ -93,8 +94,18 @@
 		\resitem{Vice President of Media, Geological Society of Kharazmi University (November 2023 - June 2024)}
 		\resitem{Ranked 8\textsuperscript{th} out of 60 students in the Undergraduate Studies}
 	\end{itemize}
-	
+\ressubheading{University of Lille, International Academy Lille Hdf}{Lille, France}{Water Resource Management (Hydro 2024) Summer School}{2024}
+\begin{itemize}[topsep=9pt, partopsep=0pt, itemsep=3.5pt, parsep=0pt]
+	\resitem{Completed 5 ECTS credits in water resource management topics.}
+	\resitem{Presented an oral defense on numerical groundwater modeling, focusing on changing water abstraction in the Weyib Watershed, Ethiopia.}
+\end{itemize}
+\ressubheading{University of Tabriz}{Tabriz, Iran}{The 2\textsuperscript{nd} Summer School of Geology}{2023}
+\begin{itemize}[topsep=9pt, partopsep=0pt, itemsep=3.5pt, parsep=0pt]
+	\resitem{Conducted field studies and geological mapping at Aras Geopark}
+	\resitem{Developed essential fieldwork skills, including rock sampling, stratigraphic logging, and structural analysis}
+\end{itemize}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 	\section{Teaching \& Work Experience}
 	\ressubheading{Kharazmi University}{Tehran, Iran}{Teaching Assistant}{April 2025 - current}
@@ -125,18 +136,21 @@
 	\resitem{Created an \href{https://aradfarahani.com/MOOC/}{Entrepreneurship MOOC} with Olympiad Medalists.}
 \end{itemize}
 
-\section{Honors \& Awards}
-\begin{itemize}[left=0pt, label={}, topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
-    \item \textbf{LeetCode Global Ranking} — \textit{Ranked Top 100}, \href{https://leetcode.com/u/aradfarahani/}{LeetCode} \hfill \textit{2025}
-    \item \textbf{Deep-ML Global Leaderboard} — \textit{Ranked Top 10}, \href{https://www.deep-ml.com/leaderboard}{Deep-ML.com} \hfill \textit{2025}
-	\item \textbf{Hydro 2024 Research-Oriented Summer School} - \textit{Full Scholarship}, University of Lille \hfill \textit{2024}
-	\item \textbf{Master's Entrance Exam (Geophysics)} - \textit{Ranked 11\textsuperscript{th} Nationwide} \hfill \textit{2024}
-	\item \textbf{Geological Society Logo Design Contest} - \textit{Winner}, Kharazmi University \hfill \textit{2024}
-	\item \textbf{Research Visit Grant (2500 DKK)} - \textit{Awardee}, University of Copenhagen \hfill \textit{2022}
-	\item \textbf{DrCT 2021 Global Computational Competition} - \textit{Gold Medalist} \hfill \textit{2021}
-	\item \textbf{1\textsuperscript{st} national Thinking \& Entrepreneurship Olympiad (ITEO)} - \textit{Silver Medalist} \hfill \textit{2020}
-	\item \textbf{WMI 2015 World Mathematical Championships Selection} - \textit{Silver Medalist} \hfill \textit{2015}	
-\end{itemize}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Community Service}
+\ressubheading{The 3\textsuperscript{rd} National Festival of Young Iranian Geologist}{Tehran, Iran}{Graphics Committee Member}{May 2024 - June 2024}
+
+\vspace{0.99em} 
+
+\ressubheading{Imam Khomeini International University}{Qazvin, Iran}{Editorial Board Member}{September 2023 - June 2024}
+
+\vspace{0.99em} 
+
+\ressubheading{BABAEEE}{Tehran, Iran}{Talent Acquisition Specialist}{July 2022 - March 2024}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \section{Publications}
 \begin{justify}
@@ -162,8 +176,50 @@
 	\end{enumerate}
 \end{justify}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+
+\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+	\item \textbf{Awesome Geophysics} $|$ \normalfont\href{https://aradfarahani.com/awesome-geophysics/}{\texttt{aradfarahani.com/awesome-geophysics}} \hfill \textit{2025}
+	\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+		\item Community-curated resource offering essential tools, datasets, and educational materials for geophysical exploration.
+	\end{itemize}
+\end{itemize}
+\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+	\item \textbf{FEZrs} $|$ \normalfont\href{https://pypi.org/project/fezrs/}{\texttt{pypi.org/project/fezrs}} \hfill \textit{2023 - current}
+	\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+		\item Advanced Python library for remote sensing, developed by FEZtool
+		\item Provides tools for image processing, feature extraction, and geospatial data analysis
+		\item Designed for satellite imagery analysis and remote sensing applications
+		\item Easily integrates with FastAPI for web-based geospatial processing
+	\end{itemize}
+\end{itemize}
+\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+	\item \textbf{Geoelectricspy} $|$ \normalfont\href{https://github.com/aradfarahani/Geoelectricspy/}{\texttt{github.com/aradfarahani/Geoelectricspy}} \hfill \textit{2023}
+	\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+		\item Interactive 3D visualization tool for subsurface resistivity using geoelectrics survey data
+	\end{itemize}
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Honors \& Awards}
+\begin{itemize}[left=0pt, label={}, topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\item \textbf{LeetCode Global Ranking} — \textit{Ranked Top 100}, \href{https://leetcode.com/u/aradfarahani/}{LeetCode} \hfill \textit{2025}
+	\item \textbf{Deep-ML Global Leaderboard} — \textit{Ranked Top 10}, \href{https://www.deep-ml.com/leaderboard}{Deep-ML.com} \hfill \textit{2025}
+	\item \textbf{Hydro 2024 Research-Oriented Summer School} - \textit{Full Scholarship}, University of Lille \hfill \textit{2024}
+	\item \textbf{Master's Entrance Exam (Geophysics)} - \textit{Ranked 11\textsuperscript{th} Nationwide} \hfill \textit{2024}
+	\item \textbf{Geological Society Logo Design Contest} - \textit{Winner}, Kharazmi University \hfill \textit{2024}
+	\item \textbf{Research Visit Grant (2500 DKK)} - \textit{Awardee}, University of Copenhagen \hfill \textit{2022}
+	\item \textbf{DrCT 2021 Global Computational Competition} - \textit{Gold Medalist} \hfill \textit{2021}
+	\item \textbf{1\textsuperscript{st} national Thinking \& Entrepreneurship Olympiad (ITEO)} - \textit{Silver Medalist} \hfill \textit{2020}
+	\item \textbf{WMI 2015 World Mathematical Championships Selection} - \textit{Silver Medalist} \hfill \textit{2015}	
+\end{itemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \section{Skills \& Interests}
-%===========================%
 \begin{description}[itemsep=0pt]
 	\item[Programming Language:] Python, Julia, Shell scripting (Bash), Familiar with R
 	\item[Markup Language:] Markdown, \LaTeX
@@ -172,4 +228,7 @@
 	\item[Language:] Farsi (Persian): \textit{\underline{Native}} , English: \textit{\underline{Fluent (C1)}}
 	\item[Research Interests:] Seismic Data Processing, Geophysics, Remote Sensing, Hydrogeophysics, Machine Learning, Image Processing, Open-Source
 \end{description}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \end{document}
