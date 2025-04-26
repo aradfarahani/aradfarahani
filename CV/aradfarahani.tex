@@ -10,6 +10,7 @@
 \usepackage{geometry}
 \usepackage{lastpage}
 \usepackage{enumitem}
+\usepackage{ragged2e}
 \usepackage{hyperref}
 
 % Configure hyperref for invisible links
@@ -31,7 +32,7 @@
 	right=0.75in,
 	top=0.25in,
 	bottom=0.5in,
-	footskip=15pt
+	footskip=10pt
 }
 
 % Footer configuration
@@ -51,8 +52,8 @@
 }
 \makeatother
 \definecolor{footergray}{gray}{0.5}
-\fancyfoot[L]{\color{footergray}\footnotesize Mahdi Farmahini Farahani}
-\fancyfoot[C]{\color{footergray}\footnotesize Page \thepage\ of \pageref{LastPage}}
+\fancyfoot[L]{\color{footergray}\footnotesize Mahdi Farmahini Farahani (Arad)}
+\fancyfoot[C]{\color{footergray}\footnotesize  \thepage\ / \pageref{LastPage}}
 \fancyfoot[R]{\color{footergray}\footnotesize \today}
 
 % Custom commands
@@ -90,43 +91,85 @@
 	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
 		\resitem{Chairperson, Geological Society of Kharazmi University (June 2024 - Present)}
 		\resitem{Vice President of Media, Geological Society of Kharazmi University (November 2023 - June 2024)}
+		\resitem{Ranked 8\textsuperscript{th} out of 60 students in the Undergraduate Studies}
 	\end{itemize}
 	
-	\section{Publications}
+
+
+	\section{Teaching \& Work Experience}
+	\ressubheading{Kharazmi University}{Tehran, Iran}{Teaching Assistant}{April 2025 - current}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Programming Course, Under Supervision of Dr. Morteza Asemani}
+	\end{itemize}
+	\ressubheading{FEZtool}{Tehran, Iran}{Co-Founder \& Research and Development Specialist}{August 2023 - current}
+\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\resitem{Developed advanced algorithms to support research and analytical processes}
+	\resitem{Conducted in-depth geospatial data analysis for environmental and spatial insights}
+	\resitem{Led research initiatives in Earth sciences to drive innovation and scientific understanding}
+\end{itemize}
+	\ressubheading{Young Scholars Club (YSC)}{Tehran, Iran}{Instructor}{July 2024}
+\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\resitem{Teaching Data Science for the Iran National IESO 2024 Team}
+\end{itemize}
+	\ressubheading{Kharazmi University}{Tehran, Iran}{Instructor}{April 2024 - June 2024}
+\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\resitem{Organized and instructed the Advanced Python and Machine Learning Workshop}
+\end{itemize}
+	\ressubheading{ARYANIC}{Tehran, Iran}{Project Manager}{November 2022 - June 2023}
+\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\resitem{Worked on a project called Business Factory and managed a team of 7.}
+\end{itemize}
+
+	\ressubheading{GreenOly}{Tehran, Iran}{Product Manager}{August 2022 - January 2023}
+\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+	\resitem{Created an \href{https://aradfarahani.com/MOOC/}{Entrepreneurship MOOC} with Olympiad Medalists.}
+\end{itemize}
+
+\section{Honors \& Awards}
+\begin{itemize}[left=0pt, label={}, topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+    \item \textbf{LeetCode Global Ranking} — \textit{Ranked Top 100}, \href{https://leetcode.com/u/aradfarahani/}{LeetCode} \hfill \textit{2025}
+    \item \textbf{Deep-ML Global Leaderboard} — \textit{Ranked Top 10}, \href{https://www.deep-ml.com/leaderboard}{Deep-ML.com} \hfill \textit{2025}
+	\item \textbf{Hydro 2024 Research-Oriented Summer School} - \textit{Full Scholarship}, University of Lille \hfill \textit{2024}
+	\item \textbf{Master's Entrance Exam (Geophysics)} - \textit{Ranked 11\textsuperscript{th} Nationwide} \hfill \textit{2024}
+	\item \textbf{Geological Society Logo Design Contest} - \textit{Winner}, Kharazmi University \hfill \textit{2024}
+	\item \textbf{Research Visit Grant (2500 DKK)} - \textit{Awardee}, University of Copenhagen \hfill \textit{2022}
+	\item \textbf{DrCT 2021 Global Computational Competition} - \textit{Gold Medalist} \hfill \textit{2021}
+	\item \textbf{1\textsuperscript{st} national Thinking \& Entrepreneurship Olympiad (ITEO)} - \textit{Silver Medalist} \hfill \textit{2020}
+	\item \textbf{WMI 2015 World Mathematical Championships Selection} - \textit{Silver Medalist} \hfill \textit{2015}	
+\end{itemize}
+
+\section{Publications}
+\begin{justify}
 	\subsection*{Journal Articles}
 	\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
 		\item \href{https://www.researchgate.net/publication/381203362_Effects_and_social_damage_of_fine_dust}{\textbf{Farmahini Farahani, M.} (2024). Effects and social damage of fine dust. \textit{\textbf{Ovan Scientific Journal}}}
 		\item \href{https://www.researchgate.net/publication/381197940_Designing_the_Green_Belt_in_the_southwest_of_Zahedan}{\textbf{Farmahini Farahani, M.} (2024). Designing the green belt in the southwest of Zahedan. \textit{\textbf{Ovan Scientific Journal}}}
-		\item \href{https://www.researchgate.net/publication/371328175_Investigating_the_Accuracy_of_Hybrid_Models_with_Wavelet_Transform_in_the_Forecast_of_Watershed_Runoff}{Saravani, M. J., Kashef, S., \textbf{Farmahini Farahani, M.}, Kashefi,M., \& Zohreh, M. (2023). Investigating the accuracy of hybrid models with wavelet transform in the forecast of watershed runoff. \textit{\textbf{Journal of Water Management Modeling (JWMM)}}}
+		\item \href{https://www.researchgate.net/publication/371328175_Investigating_the_Accuracy_of_Hybrid_Models_with_Wavelet_Transform_in_the_Forecast_of_Watershed_Runoff}{Saravani, M. J., Kashef, S., \textbf{Farmahini Farahani, M.}, Kashefi, M., \& Zohreh, M. (2023). Investigating the accuracy of hybrid models with wavelet transform in the forecast of watershed runoff. \textit{\textbf{Journal of Water Management Modeling (JWMM)}}}
 	\end{enumerate}
 	
 	\subsection*{Conference Papers}
 	\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
-		\item \href{https://www.researchgate.net/publication/378739800_Visualization_of_magnetometric_data_with_Python_case_study_Segregation_sedimentary_units_of_Torud_Playa?_sg%5B0%5D=LoPp16VH0-6l0fXCdjovY4qsKuuoBEjgL0erfoZR4Uu8OgKpJLTjo-i0ER6DJQvtxV5yn-6F_LjppW5y3_P8-rhUY1Iw0vsVNspav0fh.6VV6-YV9qqXIscybiYu4WPY6XDq3G_GtZ2_dwcU75rr-MDSamPnew9PxJPwXeni5MqqF4VPfzeTeaEakSNpS3g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, March). Visualization of magnetometric data with Python (case study: Segregation sedimentary units of Torud Playa). In \textit{\textbf{The 1st Conference on Applied Geophysics in Mines}}, Tehran, Iran}
-		\item \href{https://www.researchgate.net/publication/378307658_Comparing_the_performance_of_the_k-means_clustering_method_and_spectral_indices_in_characterizing_land_use_and_land_cover_using_remote_sensing_with_Python_case_study_Landsat_8_multi-spectral_images}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, February). Comparing the performance of the k-means clustering method and spectral indices in characterizing land use and land cover using remote sensing with Python (case study: Landsat 8 multi-spectral images). In \textit{\textbf{2nd International Conference for Iranian Geography and Earth Sciences Students}}, Tehran, Iran} 
-		\item \href{https://www.researchgate.net/publication/377838524_Application_of_PCA_algorithm_in_remote_sensing_using_Python_programming_language_case_study_Landsat_9_multispectral_images?_sg%5B0%5D=LoPp16VH0-6l0fXCdjovY4qsKuuoBEjgL0erfoZR4Uu8OgKpJLTjo-i0ER6DJQvtxV5yn-6F_LjppW5y3_P8-rhUY1Iw0vsVNspav0fh.6VV6-YV9qqXIscybiYu4WPY6XDq3G_GtZ2_dwcU75rr-MDSamPnew9PxJPwXeni5MqqF4VPfzeTeaEakSNpS3g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19}{\textbf{Farmahini Farahani, M.}, Rezaei, K., Karamollahi, S., \& Moghadam, F. J. (2024, January). Application of PCA algorithm in remote sensing using Python programming language (case study: Landsat 9 multispectral images). In \textit{\textbf{8th Symposium of Sedimentological Society of Iran}}, Hormezgan, Iran}
-		\item \href{https://www.researchgate.net/publication/374914382_The_importance_of_using_Python_programming_language_in_Earth_science?_sg%5B0%5D=LoPp16VH0-6l0fXCdjovY4qsKuuoBEjgL0erfoZR4Uu8OgKpJLTjo-i0ER6DJQvtxV5yn-6F_LjppW5y3_P8-rhUY1Iw0vsVNspav0fh.6VV6-YV9qqXIscybiYu4WPY6XDq3G_GtZ2_dwcU75rr-MDSamPnew9PxJPwXeni5MqqF4VPfzeTeaEakSNpS3g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2023, September). The importance of using Python programming language in Earth science. In \textit{\textbf{26th Conference of Geological Society of Iran}}, Urmia, Iran}
+		\item \href{https://www.researchgate.net/publication/378739800_Visualization_of_magnetometric_data_with_Python_case_study_Segregation_sedimentary_units_of_Torud_Playa}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, March). Visualization of magnetometric data with Python (case study: Segregation sedimentary units of Torud Playa). In \textit{\textbf{The 1\textsuperscript{st} Conference on Applied Geophysics in Mines}}, Tehran, Iran}
+		\item \href{https://www.researchgate.net/publication/378307658_Comparing_the_performance_of_the_k-means_clustering_method_and_spectral_indices_in_characterizing_land_use_and_land_cover_using_remote_sensing_with_Python_case_study_Landsat_8_multi-spectral_images}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, February). Comparing the performance of the k-means clustering method and spectral indices in characterizing land use and land cover using remote sensing with Python (case study: Landsat 8 multi-spectral images). In \textit{\textbf{2\textsuperscript{nd} International Conference for Iranian Geography and Earth Sciences Students}}, Tehran, Iran} 
+		\item \href{https://www.researchgate.net/publication/377838524_Application_of_PCA_algorithm_in_remote_sensing_using_Python_programming_language_case_study_Landsat_9_multispectral_images}{\textbf{Farmahini Farahani, M.}, Rezaei, K., Karamollahi, S., \& Moghadam, F. J. (2024, January). Application of PCA algorithm in remote sensing using Python programming language (case study: Landsat 9 multispectral images). In \textit{\textbf{8\textsuperscript{th} Symposium of Sedimentological Society of Iran}}, Hormozgan, Iran}
+		\item \href{https://www.researchgate.net/publication/374914382_The_importance_of_using_Python_programming_language_in_Earth_science}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2023, September). The importance of using Python programming language in Earth science. In \textit{\textbf{26\textsuperscript{th} Conference of Geological Society of Iran}}, Urmia, Iran}
 	\end{enumerate}
 	
 	\subsection*{Books}
 	\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
-		\item {Rezaei, K., \textbf{Farmahini Farahani, M.}, Karimzadehasl, E. (Trans.). (2024). \textit{Introduction to Python in Earth science data analysis: From descriptive statistics to machine learning}. \textbf{Tasir Publication.} (Original work published by Maurizio Petrelli)} 
-		\item \href{https://www.researchgate.net/publication/374919527_Environmental_Risk_Management?_sg%5B0%5D=LoPp16VH0-6l0fXCdjovY4qsKuuoBEjgL0erfoZR4Uu8OgKpJLTjo-i0ER6DJQvtxV5yn-6F_LjppW5y3_P8-rhUY1Iw0vsVNspav0fh.6VV6-YV9qqXIscybiYu4WPY6XDq3G_GtZ2_dwcU75rr-MDSamPnew9PxJPwXeni5MqqF4VPfzeTeaEakSNpS3g&_tp=eyJjb250ZXh0Ijp7ImZpcnN0UGFnZSI6ImhvbWUiLCJwYWdlIjoicHJvZmlsZSIsInByZXZpb3VzUGFnZSI6InByb2ZpbGUiLCJwb3NpdGlvbiI6InBhZ2VDb250ZW50In19}{Karimi Pashaki, A., \textbf{Farmahini Farahani, M.}, Soleimani, J., \& Karimzadegan, Y. (2023). \textit{Environmental risk management}. \textbf{Azargan Publication}} 
+		\item Rezaei, K., \textbf{Farmahini Farahani, M.}, Karimzadehasl, E. (Trans.). (2024). \textit{Introduction to Python in Earth science data analysis: From descriptive statistics to machine learning}. \textbf{Tasir Publication.} (Original work published by Maurizio Petrelli)
+		\item \href{https://www.researchgate.net/publication/374919527_Environmental_Risk_Management}{Karimi Pashaki, A., \textbf{Farmahini Farahani, M.}, Soleimani, J., \& Karimzadegan, Y. (2023). \textit{Environmental risk management}. \textbf{Azargan Publication}} 
 	\end{enumerate}
-	
-	\subsection*{Code Repositories}
-	\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
-		\item \href{https://www.researchgate.net/publication/[placeholder]}{Farmahini Farahani, M., \& Raeisi, N. (2024). KhUAdvanceGeoML [Computer software]. Retrieved from [ResearchGate URL]} 
-		\item \href{https://www.researchgate.net/publication/[placeholder]}{Farmahini Farahani, M. (2023). Remote-Sensing v1.1.0 [Computer software]. Retrieved from [ResearchGate URL]} 
-	\end{enumerate}
+\end{justify}
 
 \section{Skills \& Interests}
 %===========================%
 \begin{description}[itemsep=0pt]
-	\item[Programming Language] Python, Julia, Familiar with R
-	\item[Markup Language] Markdown, \LaTeX
-	\item[Laboratory] List scientific / research lab techniques or tools [If Applicable]
-	\item[Interests] List activities you enjoy that may spark interview conversation
+	\item[Programming Language:] Python, Julia, Shell scripting (Bash), Familiar with R
+	\item[Markup Language:] Markdown, \LaTeX
+	\item[Software:] ENVI, Global Mapper, ArcGIS, QGIS, Canva, Agisoft Metashape, Blender, 3dsMax, Google Earth Pro, Datamine, SAS.Planet, Corel Draw, Groundwater Vistas
+	\item[Fieldwork Skills:] Drone Surveying, Geoelectrics (IP-RS)
+	\item[Language:] Farsi (Persian): \textit{\underline{Native}} , English: \textit{\underline{Fluent (C1)}}
+	\item[Research Interests:] Seismic Data Processing, Geophysics, Remote Sensing, Hydrogeophysics, Machine Learning, Image Processing, Open-Source
 \end{description}
-	
 \end{document}
