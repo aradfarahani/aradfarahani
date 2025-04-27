@@ -13,10 +13,10 @@ jobs:
 
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Setup TeXLive
-        uses: teatimeguest/setup-texlive-action@v3
+        uses: teatimeguest/setup-texlive-action@v4
         with:
           packages: 'latexmk'  # Add more packages if needed
 
@@ -35,7 +35,7 @@ jobs:
           add: 'CV/aradfarahani.pdf'  # Adjust to your PDF path
 
       - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: cv-pdf
           path: CV/cv.pdf  # Adjust to your PDF path
