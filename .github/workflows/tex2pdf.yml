@@ -26,7 +26,7 @@ jobs:
         pdflatex -interaction=nonstopmode -output-directory=./ output.tex  # Replace output.tex with your LaTeX file's name
 
     - name: Upload PDF to GitHub
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v3
       with:
         name: my-cv
-        path: CV/aradfarahani.pdf  # Path to the compiled PDF (adjust if needed)
+        path: CV/output.pdf  # Path to the compiled PDF (adjust if needed)
