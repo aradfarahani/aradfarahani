@@ -21,9 +21,17 @@ jobs:
           packages: |
             scheme-basic
             latexmk
-            # Add more packages below if needed, e.g., hyperref, geometry
-            # hyperref
-            # geometry
+            xcolor
+            framed
+            tocloft
+            etoolbox
+            fancyhdr
+            geometry
+            lastpage
+            enumitem
+            ragged2e
+            hyperref
+            titlesec
 
       - name: Compile LaTeX
         run: latexmk -pdf -outdir=CV CV/aradfarahani.tex
