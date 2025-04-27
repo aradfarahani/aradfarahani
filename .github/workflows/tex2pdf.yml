@@ -13,20 +13,21 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2  # Consider upgrading to v3
+      uses: actions/checkout@v3  # Upgraded to v3 for latest features and fixes
 
     - name: Set up TeX Live
       run: |
         sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-xetex texlive-latex-extra
-        sudo apt-get install -y texlive-bibtex-extra texlive-science
+        # texlive-bibtex-extra and texlive-science omitted unless needed; uncomment below if required
+        # sudo apt-get install -y texlive-bibtex-extra texlive-science
 
     - name: Compile LaTeX file to PDF
       run: |
         cd CV
-        pdflatex -interaction=nonstopmode -output-directory=./ output.tex  # Replace "output.tex" with your file name
+        pdflatex -interaction=nonstopmode -output-directory=./ aradfarahani.tex  # Replace "aradfarahani.tex" with your actual .tex file name
 
     - name: Upload PDF to GitHub
       uses: actions/upload-artifact@v3
       with:
         name: my-cv
-        path: CV/aradfarahani.pdf  # Adjust to match your compiled PDF name
+        path: CV/aradfarahani.pdf  # Replace "aradfarahani.pdf" with your actual compiled PDF name
