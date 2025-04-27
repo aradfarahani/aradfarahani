@@ -1,0 +1,32 @@
+name: Compile LaTeX CV
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs every day at midnight UTC
+  push:
+    paths:
+      - 'CV/*.tex'  # Triggers when a LaTeX file is changed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up TeX Live
+      run: |
+        sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-xetex texlive-latex-extra
+        sudo apt-get install -y texlive-bibtex-extra texlive-science
+
+    - name: Compile LaTeX file to PDF
+      run: |
+        cd CV  # Navigate to the CV folder
+        pdflatex -interaction=nonstopmode -output-directory=./ output.tex  # Replace output.tex with your LaTeX file's name
+
+    - name: Upload PDF to GitHub
+      uses: actions/upload-artifact@v2
+      with:
+        name: my-cv
+        path: CV/aradfarahani.pdf  # Path to the compiled PDF (adjust if needed)
