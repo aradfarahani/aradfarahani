@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v2  # Consider upgrading to v3
 
     - name: Set up TeX Live
       run: |
@@ -22,11 +22,11 @@ jobs:
 
     - name: Compile LaTeX file to PDF
       run: |
-        cd CV  # Navigate to the CV folder
-        pdflatex -interaction=nonstopmode -output-directory=./ output.tex  # Replace output.tex with your LaTeX file's name
+        cd CV
+        pdflatex -interaction=nonstopmode -output-directory=./ output.tex  # Replace "output.tex" with your file name
 
     - name: Upload PDF to GitHub
       uses: actions/upload-artifact@v3
       with:
         name: my-cv
-        path: CV/output.pdf  # Path to the compiled PDF (adjust if needed)
+        path: CV/aradfarahani.pdf  # Adjust to match your compiled PDF name
