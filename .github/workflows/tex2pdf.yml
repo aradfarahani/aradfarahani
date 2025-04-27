@@ -1,42 +1,41 @@
-name: Compile LaTeX CV
+name: Compile LaTeX and Commit PDF
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs every day at midnight UTC
   push:
     paths:
-      - 'CV/*.tex'  # Triggers when a LaTeX file is changed
+      - 'CV/*.tex'
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3  # Upgraded to v3 for latest features
+      - name: Checkout Repository
+        uses: actions/checkout@v3
 
-    - name: Set up TeX Live
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y texlive-latex-base texlive-fonts-recommended texlive-fonts-extra texlive-xetex texlive-latex-extra
-        # Uncomment below if your CV uses bibliographies or scientific content
-        # sudo apt-get install -y texlive-bibtex-extra texlive-science
+      - name: Setup TeXLive
+        uses: teatimeguest/setup-texlive-action@v3
+        with:
+          packages: 'latexmk'  # Add more packages if needed
 
-    - name: Compile LaTeX file to PDF
-      run: |
-        cd CV
-        pdflatex -interaction=nonstopmode -output-directory=./ aradfarahani.tex  # Replace with your .tex file name
+      - name: Compile LaTeX
+        run: latexmk -pdf -outdir=CV CV/arad.tex  # Adjust path and filename as needed
 
-    - name: Commit PDF
-      uses: EndBug/add-and-commit@v9
-      with:
-        author_name: GitHub Actions
-        author_email: actions@github.com
-        message: 'Update CV PDF'
-        add: 'CV/arad.pdf'  # Replace with your compiled PDF name
+      - name: Set Timestamp
+        run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
 
-    - name: Upload PDF to GitHub
-      uses: actions/upload-artifact@v4  # Updated to v4
-      with:
-        name: my-cv
-        path: CV/aradfarahani.pdf  # Replace with your compiled PDF name
+      - name: Commit PDF
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: GitHub Actions
+          author_email: actions@github.com
+          message: "Update CV PDF - ${{ env.TIMESTAMP }}"
+          add: 'CV/aradfarahani.pdf'  # Adjust to your PDF path
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: cv-pdf
+          path: CV/cv.pdf  # Adjust to your PDF path
