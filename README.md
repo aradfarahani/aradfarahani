@@ -15,7 +15,7 @@ Beyond academics, I love developing open-source software, where I can blend prob
 I specialize in using <strong>programming & data science</strong> to solve geospatial problems in 
 <strong>Seismology, Hydrogeophysics, and Image Processing</strong>.  
 Currently, I'm the <strong>Co-founder and R&D Specialist at <a href="https://feztool.com/">FEZtool</a></strong>, 
-where I develop computational solutions for Earth Science challenges. You can simply [download my CV here](https://github.com/aradfarahani/aradfarahani/blob/main/CV/aradfarahani.pdf)).
+where I develop computational solutions for Earth Science challenges. You can simply [download my CV here](https://github.com/aradfarahani/aradfarahani/blob/main/CV/aradfarahani.pdf).
 
 </p>
 
