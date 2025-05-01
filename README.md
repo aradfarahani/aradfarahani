@@ -31,7 +31,6 @@ where I develop computational solutions for Earth Science challenges. You can si
 ## 🛠 Technical Skills
 
 <p align="center">
-<p align="center">
   <a href="https://skillicons.dev">
     <picture>
       <source srcset="https://skillicons.dev/icons?i=py&theme=dark" media="(prefers-color-scheme: dark)">
@@ -55,7 +54,7 @@ where I develop computational solutions for Earth Science challenges. You can si
     </picture>
     <picture>
       <source srcset="https://skillicons.dev/icons?i=sql&theme=dark" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=sql&theme=light" alt="sql">
+      <img src="https://skillicons.dev/icons?i=sql&theme=light" alt="SQL">
     </picture>
   </a>
 </p>
@@ -81,12 +80,13 @@ where I develop computational solutions for Earth Science challenges. You can si
       <source srcset="https://skillicons.dev/icons?i=markdown&theme=dark" media="(prefers-color-scheme: dark)">
       <img src="https://skillicons.dev/icons?i=markdown&theme=light" alt="Markdown">
     </picture>
-        <picture>
+    <picture>
       <source srcset="https://skillicons.dev/icons?i=bash&theme=dark" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=markdown&theme=bash" alt="bash">
+      <img src="https://skillicons.dev/icons?i=bash&theme=light" alt="Bash">
     </picture>
   </a>
 </p>
+
 
 ## 🌐 Socials
 
