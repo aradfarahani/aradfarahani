@@ -53,8 +53,8 @@ where I develop computational solutions for Earth Science challenges. You can si
       <img src="https://skillicons.dev/icons?i=anaconda&theme=light" alt="Anaconda">
     </picture>
     <picture>
-      <source srcset="https://skillicons.dev/icons?i=sql&theme=dark" media="(prefers-color-scheme: dark)">
-      <img src="https://skillicons.dev/icons?i=sql&theme=light" alt="SQL">
+      <source srcset="https://skillicons.dev/icons?i=mysql&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=mysql&theme=light" alt="MySQL">
     </picture>
   </a>
 </p>
