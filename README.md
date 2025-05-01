@@ -52,10 +52,10 @@ where I develop computational solutions for Earth Science challenges. You can si
       <source srcset="https://skillicons.dev/icons?i=anaconda&theme=dark" media="(prefers-color-scheme: dark)">
       <img src="https://skillicons.dev/icons?i=anaconda&theme=light" alt="Anaconda">
     </picture>
-<picture>
-  <source srcset="https://skillicons.dev/icons?i=sql&theme=dark" media="(prefers-color-scheme: dark)">
-  <img src="https://skillicons.dev/icons?i=sql&theme=light" alt="SQL">
-</picture>
+    <picture>
+      <source srcset="https://skillicons.dev/icons?i=sql&theme=dark" media="(prefers-color-scheme: dark)">
+      <img src="https://skillicons.dev/icons?i=sql&theme=light" alt="SQL">
+    </picture>
   </a>
 </p>
 <p align="center">
