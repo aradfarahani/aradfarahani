@@ -134,12 +134,34 @@ where I develop computational solutions for Earth Science challenges. You can si
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark">
-    <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=light"
+    >
+    <img
+      src="https://leetcard.jacoblin.cool/aradfarahani?theme=light"
+      width="400"
+      alt="LeetCode stats for aradfarahani"
+    >
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=dark&show=dark&hide_border=false&cache_seconds=32">
-    <img src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=Light&show=light&hide_border=false&cache_seconds=32" width="383">
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=dark&hide_border=false&cache_seconds=32"
+    >
+    <source
+      media="(prefers-color-scheme: light)"
+      srcset="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=false&cache_seconds=32"
+    >
+    <img
+      src="https://github-readme-stats.vercel.app/api?username=aradfarahani&show_icons=true&theme=light&hide_border=false&cache_seconds=32"
+      width="383"
+      alt="GitHub stats for aradfarahani"
+    >
   </picture>
 </p>
 
