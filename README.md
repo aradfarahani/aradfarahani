@@ -133,21 +133,10 @@ where I develop computational solutions for Earth Science challenges. You can si
 ## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
 <p align="center">
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark"
-    >
-    <source
-      media="(prefers-color-scheme: light)"
-      srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=light"
-    >
-    <img
-      src="https://leetcard.jacoblin.cool/aradfarahani?theme=light"
-      width="400"
-      alt="LeetCode stats for aradfarahani"
-    >
-  </picture>
+<picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark">
+    <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
+  </picture
   <picture>
     <source
       media="(prefers-color-scheme: dark)"
