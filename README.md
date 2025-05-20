@@ -101,7 +101,7 @@ where I develop computational solutions for Earth Science challenges. You can si
     <img src="https://img.shields.io/badge/Formerly_Twitter-000?logo=x&logoColor=white">
   </a>
   <a href="https://www.researchgate.net/profile/Mahdi-Farmahini-Farahani">
-    <img src="https://img.shields.io/badge/ResearchGate-Profile-00A4CC?logo=researchgate&logoColor=white">
+    <img src="https://img.shields.io/badge/Research-Gate-00A4CC?logo=researchgate&logoColor=white">
   </a>
   <a href="https://scholar.google.com/citations?user=kUQR1egAAAAJ&hl=en">
     <img src="https://img.shields.io/badge/Google%20Scholar-Publications-4285F4?logo=googlescholar&logoColor=white">
