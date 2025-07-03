@@ -1,41 +1,21 @@
-name: Compile LaTeX and Commit PDF
-
 on:
   push:
     paths:
       - 'CV/*.tex'
   schedule:
-    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+    - cron: '0 0 * * *'  # daily at midnight UTC
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup TeXLive
-        uses: teatimeguest/setup-texlive-action@v3
-        with:
-          packages: |
-            scheme-basic
-            latexmk
-            ulem
-            xcolor
-            framed
-            tocloft
-            etoolbox
-            fancyhdr
-            geometry
-            lastpage
-            enumitem
-            ragged2e
-            hyperref
-            titlesec
-
       - name: Compile LaTeX
-        run: latexmk -pdf -outdir=CV CV/aradfarahani.tex
+        uses: xu-cheng/latex-action@v3
+        with:
+          root_file: CV/aradfarahani.tex
 
       - name: Set Timestamp
         run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
