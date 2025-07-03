@@ -11,13 +11,22 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
+      - name: Checkout
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
 
       - name: Compile LaTeX
         uses: xu-cheng/latex-action@v3
         with:
           root_file: CV/aradfarahani.tex
+
+      - name: Upload PDF Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv-pdf
+          path: CV/aradfarahani.pdf
 
       - name: Set Timestamp
         run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
@@ -33,5 +42,5 @@ jobs:
       - name: Upload PDF Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: cv-pdf
+          name: cv-pdf-final
           path: CV/aradfarahani.pdf
