@@ -10,32 +10,33 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        persist-credentials: true
+        fetch-depth: 0
 
-      - name: Compile LaTeX
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: CV/aradfarahani.tex
-          work_in_root_file_dir: true
+    - name: Compile LaTeX
+      uses: xu-cheng/latex-action@v3
+      with:
+        root_file: CV/aradfarahani.tex
+        work_in_root_file_dir: true
 
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv-pdf
-          path: CV/aradfarahani.pdf
+    - name: Upload PDF Artifact
+      uses: actions/upload-artifact@v4
+      with:
+        name: cv-pdf
+        path: CV/aradfarahani.pdf
 
-      - name: Set Timestamp
-        run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+    - name: Set Timestamp
+      run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
 
-      - name: Commit PDF
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: GitHub Actions
-          author_email: actions@github.com
-          message: "Update CV PDF – ${{ env.TIMESTAMP }}"
-          add: 'CV/aradfarahani.pdf'
+    - name: Commit PDF
+      uses: EndBug/add-and-commit@v9
+      with:
+        author_name: GitHub Actions
+        author_email: actions@github.com
+        message: "Update CV PDF – ${{ env.TIMESTAMP }}"
+        add: 'CV/aradfarahani.pdf'
