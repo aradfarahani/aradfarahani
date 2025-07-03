@@ -1,9 +1,11 @@
+name: Compile LaTeX and Commit PDF
+
 on:
   push:
     paths:
       - 'CV/*.tex'
   schedule:
-    - cron: '0 0 * * *'  # daily at midnight UTC
+    - cron: '0 0 * * *'
 
 jobs:
   build:
