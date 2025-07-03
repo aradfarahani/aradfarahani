@@ -1,41 +1,358 @@
-name: Compile LaTeX and Commit PDF
+\documentclass[letterpaper,11pt]{article}
+\newlength{\outerbordwidth}
+\raggedbottom
+\raggedright
+\usepackage[svgnames]{xcolor}
+\usepackage{framed}
+\usepackage{tocloft}
+\usepackage{etoolbox}
+\usepackage{fancyhdr}
+\usepackage{geometry}
+\usepackage{lastpage}
+\usepackage{enumitem}
+\usepackage{ragged2e}
+\usepackage{hyperref}
+\usepackage[normalem]{ulem}
 
-on:
-  push:
-    paths:
-      - 'CV/*.tex'
-  schedule:
-    - cron: '0 0 * * *'
+\title{Curriculum Vitae -- Mahdi Farmahini Farahani (Arad)}
+\author{Mahdi Farmahini Farahani}
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-        with:
-          persist-credentials: true
-          fetch-depth: 0
 
-      - name: Compile LaTeX
-        uses: xu-cheng/latex-action@v3
-        with:
-          root_file: CV/aradfarahani.tex
-          work_in_root_file_dir: true
+\hypersetup{hidelinks}
 
-      - name: Upload PDF Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: cv-pdf
-          path: CV/aradfarahani.pdf
+\setcounter{secnumdepth}{0}
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{}[\titlerule]
+\titleformat*{\subsubsection}{\large\itshape}
 
-      - name: Set Timestamp
-        run: echo "TIMESTAMP=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
+\geometry{
+	letterpaper,
+	left=0.75in,
+	right=0.75in,
+	top=0.25in,
+	bottom=0.5in,
+	footskip=16pt
+}
 
-      - name: Commit PDF
-        uses: EndBug/add-and-commit@v9
-        with:
-          author_name: GitHub Actions
-          author_email: actions@github.com
-          message: "Update CV PDF – ${{ env.TIMESTAMP }}"
-          add: 'CV/aradfarahani.pdf'
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\makeatletter
+\renewcommand{\footrule}{%
+	\vskip-3pt
+	\hbox to\textwidth{%
+		\hfil
+		\color{footergray}\rule{\textwidth}{0.4pt}%
+		\hfil
+	}%
+	\vskip2pt
+}
+\makeatother
+\definecolor{footergray}{gray}{0.5}
+\fancyfoot[L]{\color{footergray}\footnotesize Mahdi Farmahini Farahani (Arad)}
+\fancyfoot[C]{\color{footergray}\footnotesize \thepage\ / \pageref{LastPage}}
+\fancyfoot[R]{\color{footergray}\footnotesize \today}
+
+% Custom commands
+\robustify\cftdotfill
+\setlength{\outerbordwidth}{3pt}
+\definecolor{shadecolor}{gray}{0.75}
+\definecolor{shadecolorB}{gray}{0.93}
+
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{\vspace{8pt}
+	\parbox{\textwidth}{\setlength{\FrameSep}{\outerbordwidth}
+		\begin{shaded}
+			\setlength{\fboxsep}{0pt}\framebox[\textwidth][l]{\setlength{\fboxsep}{4pt}\fcolorbox{shadecolorB}{shadecolorB}{\textbf{\sffamily{\mbox{~}\makebox[6.762in][l]{\large #1} \vphantom{p\^{E}}}}}}
+		\end{shaded}
+	}\vspace{-5pt}
+}
+\newcommand{\ressubheading}[4]{%
+	\begin{tabular*}{\textwidth}{l@{\cftdotfill{\cftsecdotsep}\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-8pt}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+	\thispagestyle{fancy}
+	
+	% Header block
+	\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+		\Large{Mahdi Farmahini Farahani} {\Large\textbf{(Arad)}} & \textbf{Undergraduate Student} \\
+		\href{mailto:aradfarahani@aol.com}{\texttt{E.mail: aradfarahani@aol.com}} & \href{https://aradfarahani.com/}{\texttt{Website: aradfarahani.com}} \\
+		\texttt{Handle: @aradfarahani} & \href{https://orcid.org/0009-0008-3800-8688}{\texttt{ORCID: 0009-0008-3800-8688}}
+	\end{tabular*}
+	\vspace{-1.5em}
+	
+	% Education
+	\section{Education}
+	\vspace{-0.78em} 
+	\ressubheading{Kharazmi University, Faculty of Earth Sciences}{Tehran, Iran}{Bachelor of Science, Geology}{2021 – 2025}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Chairperson, Geological Society of Kharazmi University (June 2024 – Present)}
+		\resitem{Vice President of Media, Geological Society of Kharazmi University (November 2023 – June 2024)}
+		\resitem{Ranked 8\textsuperscript{th} out of 60 students in the Undergraduate Studies}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{University of Lille, International Academy Lille Hdf}{Lille, France}{Water Resource Management (Hydro 2024) Summer School}{Summer 2024}
+	\begin{itemize}[topsep=9pt, partopsep=0pt, itemsep=3.5pt, parsep=0pt]
+		\resitem{Completed 5 ECTS credits in water resource management topics.}
+		\resitem{Presented an oral defense on numerical groundwater modeling, focusing on changing water abstraction in the Weyib Watershed, Ethiopia.}
+		\vspace{-0.60em} 
+	\end{itemize}
+	\ressubheading{University of Tabriz}{Tabriz, Iran}{The 2\textsuperscript{nd} Summer School of Geology}{Summer 2023}
+	\begin{itemize}[topsep=9pt, partopsep=0pt, itemsep=3.5pt, parsep=0pt]
+		\resitem{Conducted field studies and geological mapping at Aras Geopark}
+		\resitem{Developed essential fieldwork skills, including rock sampling, stratigraphic logging, and structural analysis}
+	\end{itemize}
+	\vspace{-2em} 
+	
+	\section{Teaching Experience}
+	\vspace{-0.78em} 
+	\ressubheading{Kharazmi University}{Tehran, Iran}{Teaching Assistant}{April 2025 – Present}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Programming Course, under supervision of Dr. Morteza Asemani}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{Young Scholars Club}{Tehran, Iran}{Instructor}{July 2024}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Taught "Applied Data Science in Geology" for the Iran National IESO\footnotemark[1] 2024 Team}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{Kharazmi University}{Tehran, Iran}{Instructor}{April 2024 – June 2024}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Organized and instructed the \href{https://github.com/aradfarahani/KhUAdvanceGeoML}{\dotuline{Advanced Python and Machine Learning Workshop}}}
+	\end{itemize}
+	
+	
+	\vspace{-0.50em} 
+	\ressubheading{NODET\footnotemark[2]}{Tehran, Iran}{Teacher}{May 2021 – September 2021}
+	\begin{itemize}[topsep=7.5pt, partopsep=0pt, itemsep=3.5pt, parsep=0pt]
+		\resitem{Taught ITEO\footnotemark[3] Marketing at Allameh Helli (Branches 5 \& 8) and Farzanegan High Schools}
+		
+	\end{itemize}
+	
+	\vspace{-2em}
+	
+	\section{Work Experience}
+	
+	\vspace{-0.78em} 
+	\ressubheading{FEZtool}{Tehran, Iran}{Co-Founder \& Research and Development Specialist}{August 2023 – Present}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Led research initiatives in Earth sciences to drive innovation and scientific understanding}
+		\resitem{Developed advanced algorithms to support research and analytical processes}
+		\resitem{Conducted in-depth geospatial data analysis for environmental and spatial insights}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{Kharazmi University}{Tehran, Iran}{Research Assistant}{October 2024 – January 2025}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Performed MASW to extract dispersion images under supervision of Dr. Mehdi Talkhablou.}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{NovaVira}{Tehran, Iran}{Board Member}{June 2023 – November 2024}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Collaborated on company vision and CRM development to drive growth}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{ARYANIC}{Tehran, Iran}{Project Manager}{November 2022 – June 2023}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Managed a project titled "Business Factory", leading a team of 7}
+	\end{itemize}
+	\vspace{-0.50em} 
+	\ressubheading{GreenOly}{Tehran, Iran}{Product Manager}{August 2022 – January 2023}
+	\begin{itemize}[topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\resitem{Created an
+			\href{https://aradfarahani.com/MOOC/}{\dotuline{Entrepreneurship MOOC}} with over 15 Olympiad Medalists.}
+		
+	\end{itemize}
+
+\footnotetext[1]{International Earth Science Olympiad}
+\footnotetext[2]{National Organization for Development of Exceptional Talents}
+\footnotetext[3]{Iranian Thinking \& Entrepreneurship Olympiad}
+
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Community Service}
+	\ressubheading{The 3\textsuperscript{rd} National Festival of Young Iranian Geologists}{Tehran, Iran}{Graphics Committee Member}{May 2024 – June 2024}
+	
+	\vspace{0.99em} 
+	
+	\ressubheading{Imam Khomeini International University}{Qazvin, Iran}{Editorial Board Member}{September 2023 – June 2024}
+	
+	\vspace{0.99em} 
+	
+	\ressubheading{BABAEEE}{Tehran, Iran}{Talent Acquisition Specialist}{July 2022 – March 2024}
+	\vspace{-0.9em} 
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	
+	\section{Publications}
+	\begin{justify}
+		\subsection*{Journal Articles}
+		\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+			\item \href{https://www.researchgate.net/publication/381203362_Effects_and_social_damage_of_fine_dust}{\textbf{Farmahini Farahani, M.} (2024). Effects and social damage of fine dust. \textit{\textbf{Ovan Scientific Journal}}}
+			\item \href{https://www.researchgate.net/publication/381197940_Designing_the_Green_Belt_in_the_southwest_of_Zahedan}{\textbf{Farmahini Farahani, M.} (2024). Designing the green belt in the southwest of Zahedan. \textit{\textbf{Ovan Scientific Journal}}}
+			\item \href{https://www.researchgate.net/publication/371328175_Investigating_the_Accuracy_of_Hybrid_Models_with_Wavelet_Transform_in_the_Forecast_of_Watershed_Runoff}{Saravani, M. J., Kashef, S., \textbf{Farmahini Farahani, M.}, Kashefi, M., \& Zohreh, M. (2023). Investigating the accuracy of hybrid models with wavelet transform in the forecast of watershed runoff. \textit{\textbf{Journal of Water Management Modeling (JWMM)}}}
+		\end{enumerate}
+		
+		\subsection*{Conference Papers}
+		\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+			\item \href{https://www.researchgate.net/publication/378739800_Visualization_of_magnetometric_data_with_Python_case_study_Segregation_sedimentary_units_of_Torud_Playa}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, March). Visualization of magnetometric data with Python (case study: Segregation sedimentary units of Torud Playa). In \textit{\textbf{The 1\textsuperscript{st} Conference on Applied Geophysics in Mines}}, Tehran, Iran}
+			\item \href{https://www.researchgate.net/publication/378307658_Comparing_the_performance_of_the_k-means_clustering_method_and_spectral_indices_in_characterizing_land_use_and_land_cover_using_remote_sensing_with_Python_case_study_Landsat_8_multi-spectral_images}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2024, February). Comparing the performance of the k-means clustering method and spectral indices in characterizing land use and land cover using remote sensing with Python (case study: Landsat 8 multi-spectral images). In \textit{\textbf{2\textsuperscript{nd} International Conference for Iranian Geography and Earth Sciences Students}}, Tehran, Iran} 
+			\item \href{https://www.researchgate.net/publication/377838524_Application_of_PCA_algorithm_in_remote_sensing_using_Python_programming_language_case_study_Landsat_9_multispectral_images}{\textbf{Farmahini Farahani, M.}, Rezaei, K., Karamollahi, S., \& Moghadam, F. J. (2024, January). Application of PCA algorithm in remote sensing using Python programming language (case study: Landsat 9 multispectral images). In \textit{\textbf{8\textsuperscript{th} Symposium of Sedimentological Society of Iran}}, Hormozgan, Iran}
+			\item \href{https://www.researchgate.net/publication/374914382_The_importance_of_using_Python_programming_language_in_Earth_science}{Rezaei, K., \& \textbf{Farmahini Farahani, M.} (2023, September). The importance of using Python programming language in Earth science. In \textit{\textbf{26\textsuperscript{th} Conference of Geological Society of Iran}}, Urmia, Iran}
+		\end{enumerate}
+		
+		\subsection*{Books}
+		\begin{enumerate}[label=\arabic*.,left=0pt,topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+			\item \href{https://www.amazon.com/dp/106932437X/ref=tmm_pap_swatch_0?_encoding=UTF8&dib_tag=se&dib=eyJ2IjoiMSJ9.fV6NcKzNqVmNMx01e9olJh9RUoGgbt3bwYVVMROKdEU.v8uasEadi-iUYNyBqfXdQtpDWmK8WfYL80Y5MgFWLiI&qid=1748198567&sr=1-2}{\textbf{Farmahini Farahani, M.}, Najibifar, Y., \& Akbarzadeh Afshari, A. (2025). \textit{Earthquake Prediction Using Geophysical Data Analysis and Artificial Intelligence}. \textbf{Heritage Branch, Library and Archives Canada}} 
+			\item Rezaei, K., \textbf{Farmahini Farahani, M.}, Karimzadehasl, E. (Trans.). (2024). \textit{Introduction to Python in Earth science data analysis: From descriptive statistics to machine learning}. \textbf{Tasir Publication.} (Original work published by Maurizio Petrelli)
+			
+		\end{enumerate}
+	\end{justify}
+	\vspace{-1.8em}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Projects}
+	
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{FEZrs} (Open Source) $|$ \normalfont\href{https://pypi.org/project/fezrs/}{\texttt{pypi.org/project/fezrs}} \hfill \textit{2023 – Present}
+		\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+			\item Advanced Python library for remote sensing, developed by FEZtool with over 50,000 downloads
+		\end{itemize}
+		
+	\end{itemize}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{FEZClient} (Open Source) $|$ \normalfont\href{https://github.com/FEZtool-team/FEZClient}{\texttt{github.com/FEZtool-team/FEZClient}} \hfill \textit{2024 -- 2025}
+		\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+			\item Graphical user interface (GUI) to support and extend the FEZtool ecosystem
+			
+		\end{itemize}
+	\end{itemize}
+	
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Awesome Geophysics} $|$ \normalfont\href{https://aradfarahani.com/awesome-geophysics/}{\texttt{aradfarahani.com/awesome-geophysics}} \hfill \textit{2025}
+		\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+			\item Community-curated essential geophysics datasets and open-source tools for researchers
+		\end{itemize}
+	\end{itemize}
+	
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Geoelectricspy} (Open Source) $|$ \normalfont\href{https://github.com/aradfarahani/Geoelectricspy/}{\texttt{github.com/aradfarahani/Geoelectricspy}} \hfill \textit{2023}
+		\begin{itemize}[left=15pt, label=\textbullet, topsep=4pt, partopsep=0pt, itemsep=3pt, parsep=0pt]
+			\item Interactive 3D visualization tool for subsurface resistivity using geoelectrics survey data
+		\end{itemize}
+	\end{itemize}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\section{Licenses \& Certifications}
+	
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{International Data Masterclass,} United Nations Big Data  \hfill \textit{2024}
+	\end{itemize}
+	\vspace{-1.2em} 
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Application of Remote Sensing in Geology,} Zawinas
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Investigating practical issues in the exploration of Sulphide Deposits using the IP-RS method,} (NIGS)\footnotemark[1]
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{AI and Climate Change,} DeepLearning.AI (Offred by Coursera)  \hfill \textit{2023}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Global Environmental Management,} DTU\footnotemark[2] (Offred by Coursera)  \hfill \textit{}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Remote Pilot Certification (Multirotor),} CAAIRI\footnotemark[3] \hfill \textit{}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Unmanned Aerial Vehicle Surveying,} Maan Academy  \hfill \textit{}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{GIS, Mapping, and Spatial Analysis Specialization,} University of Toronto (Offred by Coursera) \hfill \textit{}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Hydraulic Modeling of flood plains in Urban Rivers,}  Kharazmi University \hfill \textit{2022}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{CS50 Certificate,}  CS50 (Harvard Uiversity) \hfill \textit{2021}
+	\end{itemize}
+	\vspace{-1.2em}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt, partopsep=0pt, itemsep=6pt, parsep=0pt]
+		\item \textbf{Introduction to Data Analytics,}  IBM (Offred by Coursera) \hfill \textit{}
+	\end{itemize}
+	\vspace{-1.2em}
+	\footnotetext[1]{National Iranian Geophysical Society} 
+	\footnotetext[2]{Technical University of Denmark}
+	\footnotetext[3]{Civil Aviation Authority of Islamic Republic of Iran}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-0.6em} 
+	\section{Honors \& Awards}
+	\begin{itemize}[left=0pt, label={}, topsep=7.5pt,partopsep=0pt,itemsep=3.5pt,parsep=0pt]
+		\item \textbf{LeetCode Global Ranking} - \textit{Ranked Top 100}, \href{https://leetcode.com/u/aradfarahani/}{\dotuline{LeetCode}} \hfill \textit{2025}
+		\item \textbf{Deep-ML Global Leaderboard} - \textit{Ranked Top 50}, \href{https://www.deep-ml.com/leaderboard}{\dotuline{Deep-ML.com}} \hfill \textit{}
+		\item \textbf{Master's Entrance Exam (Geophysics)} - \textit{Ranked 8\textsuperscript{th} Nationwide} \hfill \textit{}
+		\item \textbf{Hydro 2024 Research-Oriented Summer School} - \textit{Full Scholarship}, University of Lille \hfill \textit{2024}
+		\item \textbf{Geological Society Logo Design Contest} - \textit{Winner}, Kharazmi University \hfill \textit{}
+		\item \textbf{Research Visit Grant (2500 DKK)} - \textit{Awardee}, University of Copenhagen \hfill \textit{2022}
+		\item \textbf{DrCT 2021 Global Computational Competition} - \textit{Gold Medalist} \hfill \textit{2021}
+		\item \textbf{1\textsuperscript{st} national Thinking \& Entrepreneurship Olympiad (ITEO)} - \textit{Silver Medalist} \hfill \textit{2020}
+		\item \textbf{WMI 2015 World Mathematical Championships Selection} - \textit{Silver Medalist} \hfill \textit{2015}	
+	\end{itemize}
+	\vspace{-1.0em}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\vspace{-0.5em} 
+	\section{Skills \& Interests}
+	\begin{description}[itemsep=0pt]
+		
+		\item[Programming Languages:] 
+		Python (ObsPy, pyGIMLi, XGBoost, OpenCV, TensorFlow, NumPy, PyGMT, Xarray, Pandas, Scikit-learn, Matplotlib, Plotly, kepler.gl, Leafmap, Folium, Seaborn, Rasterio, GeoPandas), Julia, Bash (Shell scripting), SQL (MySQL); Familiar with R
+		
+		\item[Markup Languages:] 
+		Markdown, \LaTeX
+		
+		\item[Software:] 
+		ENVI, Global Mapper, ArcGIS, QGIS, Canva, Agisoft Metashape, Blender, 3ds Max, Google Earth Pro, Datamine, SAS.Planet, CorelDRAW, Groundwater Vistas
+		
+		\item[Field Techniques:] 
+		Drone Surveying, Geoelectrical Methods (Induced Polarization–Resistivity Sounding, IP-RS)
+		
+		\item[Languages:] 
+		Farsi (Persian): \textit{\underline{Native}}; English: \textit{\underline{Fluent (C1)}}
+		
+		\item[Research Interests:] 
+		Signal Processing, Applied Geophysics, Remote Sensing, Hydrogeophysics, Machine Learning, Image Processing, Open-Source Software Development, Inverse Problems
+		
+	\end{description}
+	\vspace{-2.0em} 
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\section{Professional Memberships}
+	\vspace{-0.5em} 
+	\ressubheading{Google Maps Platform Innovators}{Member, 2025 – Present}{}{}
+	\vspace{-0.2em} 
+	\vspace{-0.5em} 
+	\ressubheading{Young Scholars Club}{Member, 2020 – Present}{}{}
+	\vspace{-0.2em} 
+	\vspace{-0.5em} 
+	\ressubheading{Geological Society of Iran}{Student member, 2021 – 2022}{}{}
+	\vspace{2em} 
+	
+	
+\end{document}
