@@ -138,7 +138,6 @@ where I develop computational solutions for Earth Science challenges. You can si
     <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
 </picture>
 </p>
-## 📊 GitHub Stats
 
 [![Arad's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=aradfarahani&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/aradfarahani)
 
