@@ -133,13 +133,18 @@ where I develop computational solutions for Earth Science challenges. You can si
 ## <img src="https://media.tenor.com/IHmiM4Itjg4AAAAi/btc-bitcoin.gif" width="55"> Coding Stats
 
 <p align="center">
-<picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark">
-    <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
-</picture>
+  <span>
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://leetcard.jacoblin.cool/aradfarahani?theme=dark">
+      <img src="https://leetcard.jacoblin.cool/aradfarahani?theme=light" width="400">
+    </picture>
+  </span>
+
+  <span>
+    <img src="https://github-readme-stats-fast.vercel.app/api?username=aradfarahani&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true" width="390">
+  </span>
 </p>
 
-[![Arad's GitHub stats](https://github-readme-stats-fast.vercel.app/api?username=aradfarahani&show_icons=true&theme=dracula&hide_border=true&include_all_commits=true&count_private=true)](https://github.com/aradfarahani)
 
 ---
 
