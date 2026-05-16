@@ -4,7 +4,7 @@
 [![Open Sourcerer](https://img.shields.io/badge/Open%20Sourcerer-%2300a896.svg?style=flat&logo=github&logoColor=white)](https://github.com/aradfarahani)
   
 # <img src="https://media.tenor.com/YCsgU6ozOrsAAAAi/earth.gif" width="37"> [**Arad Farahani**](https://aradfarahani.com/) | Computational Geophysics 
- 
+  
 ### <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30">  Welcome to my GitHub! 
 
 <p align="justify">
