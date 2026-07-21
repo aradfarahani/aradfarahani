@@ -8,9 +8,9 @@
 ### <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30">  Welcome to my GitHub! 
 
 <p align="justify">
-I'm a <strong>senior undergraduate Geology student</strong> at Kharazmi University, deeply passionate about 
-<strong>Geophysics, Remote Sensing, AI-driven forecasting, and Computational Science</strong>. 
-I also enjoy working with image processing techniques for clustering and classification.<br>
+I'm a <strong>Geophysics Ph.D. student</strong> at Chinese University of Hong Kong, deeply passionate about 
+<strong>Seismology, Remote Sensing, AI-driven forecasting, and Computational Science</strong>. 
+I also enjoy working with image processing techniques specially noise reduction <br>
 Beyond academics, I love developing open-source software, where I can blend problem-solving with creativity.  
 I specialize in using <strong>programming & data science</strong> to solve geospatial problems in 
 <strong>Seismology, Hydrogeophysics, and Image Processing</strong>.  
