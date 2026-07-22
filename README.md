@@ -145,11 +145,19 @@ where I develop computational solutions for Earth Science challenges. You can si
   </span>
 </p>
 
+<p align="center">
+  <span>
+    <picture>
+      <source media="()" srcset="https://duolingo-stats-card.vercel.app/api?username=aradfarahani">
+      <img src="https://duolingo-stats-card.vercel.app/api?username=aradfarahani" width="400">
+    </picture>
+  </span>
+</p>
 
 ---
 
 ![Profile views](https://komarev.com/ghpvc/?username=aradfarahani)
 [![Google Maps Platform Innovator](https://img.shields.io/badge/Google%20Maps%20Platform%20Innovator-blue)](https://developers.google.com/profile/badges/community/innovators/maps/)
-[![Duolingo Stats](https://duolingo-stats-card.vercel.app/api?username=aradfarahani)](https://invite.duolingo.com/profile-share/AradFarahani?via=share_profile_qr)
+
 
 <img src="https://capsule-render.vercel.app/api?type=waving&amp;color=7A92B8&amp;height=100&amp;section=footer" width="100%">
