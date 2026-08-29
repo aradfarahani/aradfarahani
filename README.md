@@ -28,7 +28,7 @@ where I develop computational solutions for Earth Science challenges. You can si
 
 🐥 **Fun Fact**: I have a rubber duck named **Pinky**<img src="https://media.tenor.com/3arJZZkFW6kAAAAj/dancing-duck-danse.gif" width="40"> who helps me debug!
 
-## 🛠 Technical Skills
+## 🛠 Technical Skills 
 
 <p align="center">
   <a href="https://skillicons.dev">
