@@ -3,7 +3,7 @@
 [![DeepML](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Fsilvermete0r%2Fdeepml-top%2Fmain%2Fbadges.json&query=%24.8a245f5d70036cdf1a252baf4ed2a78d.label&prefix=Rank%20&style=flat&label=%F0%9F%9A%80%20DeepML&link=https%3A%2F%2Fwww.deep-ml.com%2Fuser%2F8a245f5d70036cdf1a252baf4ed2a78d)](https://www.deep-ml.com/leaderboard)
 [![Open Sourcerer](https://img.shields.io/badge/Open%20Sourcerer-%2300a896.svg?style=flat&logo=github&logoColor=white)](https://github.com/aradfarahani) 
 
-# <img src="https://media.tenor.com/YCsgU6ozOrsAAAAi/earth.gif" width="37"> [**Arad Farahani**](https://aradfarahani.com/) | Computational Geophysics 
+# <img src="https://media.tenor.com/YCsgU6ozOrsAAAAi/earth.gif" width="37"> [**Arad Farahani**](https://aradfarahani.com/) | Statistical Seismology 
   
 ### <img src="https://raw.githubusercontent.com/aemmadi/aemmadi/master/wave.gif" width="30">  Welcome to my GitHub! 
 
